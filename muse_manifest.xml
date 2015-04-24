@@ -1,4 +1,4 @@
-<manifest alg="2" build="1176" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1429744209681">
+<manifest alg="2" build="1176" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1429824588386">
   <folder name="images">
     <file name="cplusplus1.jpg" crc="4274426430" ref="learn:try"/>
     <file name="hdl-logos.jpg" crc="386644040" ref="learn:try"/>
@@ -22,7 +22,7 @@
     <file name="fpga_leds.jpg" crc="358500370" ref="play"/>
     <file name="hps_accelerometer.jpg" crc="3999977144" ref="play"/>
     <file name="sfft5.png" crc="3889987125" ref="play"/>
-    <file name="survey-icon.png" crc="3928421250" ref="more"/>
+    <file name="survey-icon.png" crc="3928421250" ref="develop"/>
     <file name="reset_pb_table.jpg" crc="4119196603" ref="index"/>
     <file name="led_button-off.png" crc="4293306195" ref="play"/>
     <file name="led_button-on.png" crc="3838342334" ref="play"/>
@@ -30,7 +30,6 @@
     <file name="rocketboards.jpg" crc="412716149" ref="learn"/>
     <file name="learn.jpg" crc="156779375" ref="learn"/>
     <file name="gsrd-boot.png" crc="95688836" ref="learn"/>
-    <file name="rocket-01_small.jpg" crc="131212317" ref="index:play:more:learn:try"/>
     <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play"/>
     <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play"/>
     <file name="fft_cpu_source_fpga.jpg" crc="269045973" ref="play"/>
@@ -45,40 +44,42 @@
     <file name="utilities-icon.png" crc="4081033682" ref="learn"/>
     <file name="library.png" crc="4045537990" ref="learn"/>
     <file name="hwlibs.jpg" crc="4223065740" ref="learn"/>
+    <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="231159172"/>
-    <file name="master_a-master.css" crc="521410539" ref="index:play:learn:more:try"/>
-    <file name="index.css" crc="3795270720" ref="index"/>
-    <file name="play.css" crc="3800672905" ref="play"/>
-    <file name="learn.css" crc="3957239644" ref="learn"/>
-    <file name="more.css" crc="354708463" ref="more"/>
-    <file name="try.css" crc="3895714741" ref="try"/>
+    <file name="master_a-master.css" crc="3927692635" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="3801616813" ref="index"/>
+    <file name="play.css" crc="144744487" ref="play"/>
+    <file name="learn.css" crc="3961307113" ref="learn"/>
+    <file name="try.css" crc="4018775704" ref="try"/>
+    <file name="develop.css" crc="4124029238" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
-    <file name="de0-nano-soc.pdf" crc="443412375" mt="1423260902000"/>
-    <file name="de0-nano-soc_user_manual.pdf" crc="238333681" mt="1423260902000"/>
-    <file name="why-do-i-need-a-customizable-arm-based-soc-—-altera.mp4" crc="125734413" mt="1425914485000"/>
-    <file name="a-look-inside--soc-fpgas-introduction-(part-1-of-5)---youtube.mp4" crc="4053850817" mt="1425914791000"/>
-    <file name="a-look-inside--soc-fpgas-system-performance-(part-2-of-5).mp4" crc="4171399478" mt="1425914957000"/>
-    <file name="a-look-inside--soc-fpgas-reliability-and-flexibility-(part-3-of-5).mp4" crc="4061460043" mt="1425915070000"/>
-    <file name="a-look-inside--soc-fpgas-system-cost-and-power-(part-4-of-5).mp4" crc="326448472" mt="1425915220000"/>
-    <file name="a-look-inside--soc-fpgas-embedded-development-tools-(part-5-of-5).mp4" crc="48688703" mt="1425915297000"/>
+    <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
+    <file name="de0-nano-soc_user_manual.pdf" crc="238333681" mt="1423791588000"/>
+    <file name="why-do-i-need-a-customizable-arm-based-soc-—-altera.mp4" crc="125734413" mt="1429744213000"/>
+    <file name="a-look-inside--soc-fpgas-system-performance-(part-2-of-5).mp4" crc="4171399478" mt="1429744222000"/>
+    <file name="a-look-inside--soc-fpgas-reliability-and-flexibility-(part-3-of-5).mp4" crc="4061460043" mt="1429744224000"/>
+    <file name="a-look-inside--soc-fpgas-system-cost-and-power-(part-4-of-5).mp4" crc="326448472" mt="1429744228000"/>
+    <file name="a-look-inside--soc-fpgas-embedded-development-tools-(part-5-of-5).mp4" crc="48688703" mt="1429744231000"/>
+    <file name="a-look-inside--soc-fpgas-introduction-(part-1-of-5).mp4" crc="3836003049" mt="1429822175000"/>
+    <file name="wp-01202-embedded-system-soc-design-considerations.pdf" crc="91058474" mt="1429823452000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="221936890" ref="index:play:learn:more:try"/>
-    <file name="museutils.js" crc="3793461109" ref="index:play:learn:more:try"/>
-    <file name="jquery.musemenu.js" crc="492415246" ref="index:play:learn:more:try"/>
-    <file name="jquery.watch.js" crc="3766403489" ref="index:play:learn:more:try"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:more:try"/>
-    <file name="webpro.js" crc="4263367560" ref="learn:index:play:more:try"/>
-    <file name="musewpdisclosure.js" crc="513264147" ref="learn:index:play:more:try"/>
+    <file name="jquery-1.8.3.min.js" crc="221936890" ref="index:play:learn:try:develop"/>
+    <file name="museutils.js" crc="3793461109" ref="index:play:learn:try:develop"/>
+    <file name="jquery.musemenu.js" crc="492415246" ref="index:play:learn:try:develop"/>
+    <file name="jquery.watch.js" crc="3766403489" ref="index:play:learn:try:develop"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
+    <file name="webpro.js" crc="4263367560" ref="learn:index:play:try:develop"/>
+    <file name="musewpdisclosure.js" crc="513264147" ref="learn:index:play:try:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3843766759" ref="play"/>
   </folder>
-  <file name="index.html" crc="416392029" mt="1429744100856" redirect="true"/>
-  <file name="play.html" crc="3941769308" mt="1429744100856" redirect="true"/>
-  <file name="learn.html" crc="364900287" mt="1429744121774" redirect="true"/>
-  <file name="more.html" crc="3786261236" mt="1429744100856" redirect="true"/>
-  <file name="try.html" crc="59957320" mt="1429744100856" redirect="true"/>
+  <file name="index.html" crc="3800018480" mt="1429824574144" redirect="true"/>
+  <file name="play.html" crc="3796026657" mt="1429807470721" redirect="true"/>
+  <file name="learn.html" crc="399529889" mt="1429807470721" redirect="true"/>
+  <file name="try.html" crc="3987504658" mt="1429807470721" redirect="true"/>
+  <file name="develop.html" crc="413751977" mt="1429807470721" redirect="true"/>
 </manifest>
