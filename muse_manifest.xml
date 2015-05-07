@@ -1,4 +1,4 @@
-<manifest alg="2" build="1176" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1429824588386">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431039242283">
   <folder name="images">
     <file name="cplusplus1.jpg" crc="4274426430" ref="learn:try"/>
     <file name="hdl-logos.jpg" crc="386644040" ref="learn:try"/>
@@ -18,7 +18,6 @@
     <file name="user_leds.jpg" crc="4074739427" ref="index"/>
     <file name="user_pb_led_table.jpg" crc="38403406" ref="index"/>
     <file name="play_logo.png" crc="93783203" ref="play"/>
-    <file name="hps_leds_buttons.jpg" crc="318263429" ref="play"/>
     <file name="fpga_leds.jpg" crc="358500370" ref="play"/>
     <file name="hps_accelerometer.jpg" crc="3999977144" ref="play"/>
     <file name="sfft5.png" crc="3889987125" ref="play"/>
@@ -45,15 +44,16 @@
     <file name="library.png" crc="4045537990" ref="learn"/>
     <file name="hwlibs.jpg" crc="4223065740" ref="learn"/>
     <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try"/>
+    <file name="hps-block-diagram.jpg" crc="3801096461" ref="index"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="231159172"/>
-    <file name="master_a-master.css" crc="3927692635" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="3801616813" ref="index"/>
-    <file name="play.css" crc="144744487" ref="play"/>
-    <file name="learn.css" crc="3961307113" ref="learn"/>
-    <file name="try.css" crc="4018775704" ref="try"/>
-    <file name="develop.css" crc="4124029238" ref="develop"/>
+    <file name="site_global.css" crc="4132104107"/>
+    <file name="master_a-master.css" crc="4213870116" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="4227524460" ref="index"/>
+    <file name="play.css" crc="3857464486" ref="play"/>
+    <file name="learn.css" crc="206318399" ref="learn"/>
+    <file name="try.css" crc="110746798" ref="try"/>
+    <file name="develop.css" crc="280008110" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -66,20 +66,23 @@
     <file name="a-look-inside--soc-fpgas-embedded-development-tools-(part-5-of-5).mp4" crc="48688703" mt="1429744231000"/>
     <file name="a-look-inside--soc-fpgas-introduction-(part-1-of-5).mp4" crc="3836003049" mt="1429822175000"/>
     <file name="wp-01202-embedded-system-soc-design-considerations.pdf" crc="91058474" mt="1429823452000"/>
+    <file name="on.jpg" crc="2697029" mt="1431009868000"/>
+    <file name="off.jpg" crc="239236417" mt="1430928724000"/>
+    <file name="blink.jpg" crc="4037406787" mt="1430928697000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="221936890" ref="index:play:learn:try:develop"/>
-    <file name="museutils.js" crc="3793461109" ref="index:play:learn:try:develop"/>
-    <file name="jquery.musemenu.js" crc="492415246" ref="index:play:learn:try:develop"/>
-    <file name="jquery.watch.js" crc="3766403489" ref="index:play:learn:try:develop"/>
+    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:play:learn:try:develop"/>
+    <file name="museutils.js" crc="521960461" ref="index:play:learn:try:develop"/>
+    <file name="jquery.musemenu.js" crc="397543671" ref="index:play:learn:try:develop"/>
+    <file name="jquery.watch.js" crc="56779320" ref="index:play:learn:try:develop"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
-    <file name="webpro.js" crc="4263367560" ref="learn:index:play:try:develop"/>
-    <file name="musewpdisclosure.js" crc="513264147" ref="learn:index:play:try:develop"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3843766759" ref="play"/>
+    <file name="webpro.js" crc="220831917" ref="learn:index:play:try:develop"/>
+    <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
   </folder>
-  <file name="index.html" crc="3800018480" mt="1429824574144" redirect="true"/>
-  <file name="play.html" crc="3796026657" mt="1429807470721" redirect="true"/>
-  <file name="learn.html" crc="399529889" mt="1429807470721" redirect="true"/>
-  <file name="try.html" crc="3987504658" mt="1429807470721" redirect="true"/>
-  <file name="develop.html" crc="413751977" mt="1429807470721" redirect="true"/>
+  <file name="index.html" crc="247930040" mt="1431036885456" redirect="true"/>
+  <file name="play.html" crc="94809894" mt="1431033636436" redirect="true"/>
+  <file name="learn.html" crc="53201075" mt="1431033636436" redirect="true"/>
+  <file name="try.html" crc="4199058859" mt="1431033636436" redirect="true"/>
+  <file name="develop.html" crc="357974374" mt="1431033636436" redirect="true"/>
 </manifest>

@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #0000F5;
-	background-color: #CFB136;
+	color: #000010;
+	background-color: #B095AE;
 }
 
 .html
@@ -746,8 +746,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	font-size: 18px;
 	line-height: 1.2;
+	font-size: 18px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;

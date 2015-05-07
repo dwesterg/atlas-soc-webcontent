@@ -84,7 +84,7 @@ body
 a:link
 {
 	color: #0000FF;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:visited
@@ -96,7 +96,7 @@ a:visited
 a:hover
 {
 	color: #0000FF;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:active
@@ -184,6 +184,17 @@ a.nontext /* used to override default properties of 'a' tag */
 	color: #ED1C24;
 	font-family: Comic Sans, Comic Sans MS, cursive;
 	font-size: 16px;
+	padding: 0px;
+}
+
+.Paragraph-Style,.Left-hand-Navigation
+{
+	color: #0071BC;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
 	padding: 0px;
 }
 
