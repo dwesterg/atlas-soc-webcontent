@@ -1,14 +1,9 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431039242283">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431534545426">
   <folder name="images">
-    <file name="cplusplus1.jpg" crc="4274426430" ref="learn:try"/>
-    <file name="hdl-logos.jpg" crc="386644040" ref="learn:try"/>
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index"/>
     <file name="board-bottom.jpg" crc="3968825685" ref="index"/>
-    <file name="pdf-icon.jpg" crc="185099995" ref="index"/>
-    <file name="config_switches.jpg" crc="3905402920" ref="index"/>
-    <file name="config_settings_table.jpg" crc="4238508467" ref="index"/>
     <file name="reset_pushbuttons.jpg" crc="3995012306" ref="index"/>
     <file name="hps_reset_tree.jpg" crc="3770232850" ref="index"/>
     <file name="board_leds.jpg" crc="120360783" ref="index"/>
@@ -44,16 +39,20 @@
     <file name="library.png" crc="4045537990" ref="learn"/>
     <file name="hwlibs.jpg" crc="4223065740" ref="learn"/>
     <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try"/>
-    <file name="hps-block-diagram.jpg" crc="3801096461" ref="index"/>
+    <file name="hps-block-diagram.jpg" crc="503257085" ref="index"/>
+    <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index"/>
+    <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index"/>
+    <file name="streamline_icons_customize1.png" crc="149720104" ref="learn"/>
+    <file name="soc_ecosystem.jpg" crc="4146661755" ref="learn"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4132104107"/>
-    <file name="master_a-master.css" crc="4213870116" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="4227524460" ref="index"/>
-    <file name="play.css" crc="3857464486" ref="play"/>
-    <file name="learn.css" crc="206318399" ref="learn"/>
-    <file name="try.css" crc="110746798" ref="try"/>
-    <file name="develop.css" crc="280008110" ref="develop"/>
+    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="493311864" ref="index"/>
+    <file name="play.css" crc="291833952" ref="play"/>
+    <file name="learn.css" crc="4235794181" ref="learn"/>
+    <file name="try.css" crc="4079988782" ref="try"/>
+    <file name="develop.css" crc="532454174" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -80,9 +79,9 @@
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
   </folder>
-  <file name="index.html" crc="247930040" mt="1431036885456" redirect="true"/>
-  <file name="play.html" crc="94809894" mt="1431033636436" redirect="true"/>
-  <file name="learn.html" crc="53201075" mt="1431033636436" redirect="true"/>
-  <file name="try.html" crc="4199058859" mt="1431033636436" redirect="true"/>
-  <file name="develop.html" crc="357974374" mt="1431033636436" redirect="true"/>
+  <file name="index.html" crc="4061530674" mt="1431441833230" redirect="true"/>
+  <file name="play.html" crc="3886931855" mt="1431439977524" redirect="true"/>
+  <file name="learn.html" crc="3968811483" mt="1431444400760" redirect="true"/>
+  <file name="try.html" crc="4095403091" mt="1431446678720" redirect="true"/>
+  <file name="develop.html" crc="4481833" mt="1431444915419" redirect="true"/>
 </manifest>

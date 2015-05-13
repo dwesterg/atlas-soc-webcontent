@@ -61,23 +61,23 @@
 	position: relative;
 }
 
-#u518
+#u5552
 {
 	background-color: #0071BC;
 	position: relative;
 }
 
-#u518:hover
+#u5552:hover
 {
 	background-color: #000C82;
 }
 
-#u518:active
+#u5552:active
 {
 	background-color: #6B6B6B;
 }
 
-#u521-4
+#u5553-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -115,7 +115,7 @@
 	position: relative;
 }
 
-#u4340,#u146,#u139,#u517,#u2673,#u167
+#u4340,#u146,#u139,#u5549,#u2673,#u167
 {
 	background-color: transparent;
 	position: relative;
@@ -137,7 +137,7 @@
 	background-color: #6B6B6B;
 }
 
-#u147.MuseMenuActive,#u142.MuseMenuActive,#u518.MuseMenuActive,#u2674.MuseMenuActive,#u168.MuseMenuActive
+#u147.MuseMenuActive,#u142.MuseMenuActive,#u5552.MuseMenuActive,#u2674.MuseMenuActive,#u168.MuseMenuActive
 {
 	background-color: #999999;
 }

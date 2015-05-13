@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #0000E5;
-	background-color: #EC3CA6;
+	color: #000011;
+	background-color: #650860;
 }
 
 .html
@@ -174,7 +174,7 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u517
+#u5549
 {
 	width: 88px;
 	min-height: 34px;
@@ -182,27 +182,27 @@
 	left: 178px;
 }
 
-#u518
+#u5552
 {
 	width: 88px;
 	padding-bottom: 17px;
 }
 
-#u518:hover
+#u5552:hover
 {
 	width: 88px;
 	min-height: 0px;
 	margin: 0px;
 }
 
-#u518:active
+#u5552:active
 {
 	width: 88px;
 	min-height: 0px;
 	margin: 0px;
 }
 
-#u521-4
+#u5553-4
 {
 	width: 88px;
 	min-height: 17px;
@@ -210,7 +210,7 @@
 	top: 8px;
 }
 
-#u518:hover #u521-4
+#u5552:hover #u5553-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -219,7 +219,7 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u518:active #u521-4
+#u5552:active #u5553-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -242,7 +242,7 @@
 	padding-bottom: 17px;
 }
 
-#u518.MuseMenuActive,#u2674:hover
+#u5552.MuseMenuActive,#u2674:hover
 {
 	width: 88px;
 	min-height: 0px;
@@ -264,7 +264,7 @@
 	top: 8px;
 }
 
-#u518.MuseMenuActive #u521-4,#u2674:hover #u2676-4
+#u5552.MuseMenuActive #u5553-4,#u2674:hover #u2676-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -1134,8 +1134,8 @@
 	width: 205px;
 	min-height: 65px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: left;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 211px;
@@ -1270,9 +1270,9 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1;
 	font-size: 20px;
 	text-align: center;
+	line-height: 1;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: normal;
