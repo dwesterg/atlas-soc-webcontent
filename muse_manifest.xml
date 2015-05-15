@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431534545426">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431724984934">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -12,8 +12,7 @@
     <file name="slide_switches.jpg" crc="4107215453" ref="index"/>
     <file name="user_leds.jpg" crc="4074739427" ref="index"/>
     <file name="user_pb_led_table.jpg" crc="38403406" ref="index"/>
-    <file name="play_logo.png" crc="93783203" ref="play"/>
-    <file name="fpga_leds.jpg" crc="358500370" ref="play"/>
+    <file name="play_logo.png" crc="3795199510" ref="play"/>
     <file name="hps_accelerometer.jpg" crc="3999977144" ref="play"/>
     <file name="sfft5.png" crc="3889987125" ref="play"/>
     <file name="survey-icon.png" crc="3928421250" ref="develop"/>
@@ -44,15 +43,20 @@
     <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index"/>
     <file name="streamline_icons_customize1.png" crc="149720104" ref="learn"/>
     <file name="soc_ecosystem.jpg" crc="4146661755" ref="learn"/>
+    <file name="de0-nano-soc_blackdiagram_341-01.jpg" crc="3825713749" ref="play"/>
+    <file name="cmd line.jpg" crc="520958827" ref="try"/>
+    <file name="vcn_viewer.jpg" crc="112657178" ref="try"/>
+    <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn"/>
+    <file name="develop-icon.png" crc="513143481" ref="develop"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4132104107"/>
-    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="493311864" ref="index"/>
-    <file name="play.css" crc="291833952" ref="play"/>
-    <file name="learn.css" crc="4235794181" ref="learn"/>
-    <file name="try.css" crc="4079988782" ref="try"/>
-    <file name="develop.css" crc="532454174" ref="develop"/>
+    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="46662031" ref="index"/>
+    <file name="play.css" crc="4142146429" ref="play"/>
+    <file name="learn.css" crc="4170673462" ref="learn"/>
+    <file name="try.css" crc="439816785" ref="try"/>
+    <file name="develop.css" crc="4013689392" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -79,9 +83,9 @@
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
   </folder>
-  <file name="index.html" crc="4061530674" mt="1431441833230" redirect="true"/>
-  <file name="play.html" crc="3886931855" mt="1431439977524" redirect="true"/>
-  <file name="learn.html" crc="3968811483" mt="1431444400760" redirect="true"/>
-  <file name="try.html" crc="4095403091" mt="1431446678720" redirect="true"/>
-  <file name="develop.html" crc="4481833" mt="1431444915419" redirect="true"/>
+  <file name="index.html" crc="3990296432" mt="1431704361591" redirect="true"/>
+  <file name="play.html" crc="4230276161" mt="1431720366998" redirect="true"/>
+  <file name="learn.html" crc="296246326" mt="1431719761343" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1431716639595" redirect="true"/>
+  <file name="develop.html" crc="3792406089" mt="1431724932829" redirect="true"/>
 </manifest>

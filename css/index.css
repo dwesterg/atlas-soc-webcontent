@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #00001D;
-	background-color: #675778;
+	color: #000002;
+	background-color: #C8018F;
 }
 
 .html
@@ -582,8 +582,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	font-size: 18px;
 	line-height: 1.2;
+	font-size: 18px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;
