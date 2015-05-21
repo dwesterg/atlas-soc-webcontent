@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431724984934">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432234118924">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -22,7 +22,6 @@
     <file name="develop.jpg" crc="22390905" ref="try"/>
     <file name="rocketboards.jpg" crc="412716149" ref="learn"/>
     <file name="learn.jpg" crc="156779375" ref="learn"/>
-    <file name="gsrd-boot.png" crc="95688836" ref="learn"/>
     <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play"/>
     <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play"/>
     <file name="fft_cpu_source_fpga.jpg" crc="269045973" ref="play"/>
@@ -48,15 +47,31 @@
     <file name="vcn_viewer.jpg" crc="112657178" ref="try"/>
     <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn"/>
     <file name="develop-icon.png" crc="513143481" ref="develop"/>
+    <file name="scan.jpg" crc="298511580" ref="index"/>
+    <file name="playback_play.png" crc="283244884" ref="index"/>
+    <file name="playback_play_b.png" crc="4254315524" ref="index"/>
+    <file name="chalktalk_sm-u6505-fr.png" crc="243998441" ref="index"/>
+    <file name="chalktalk_sm.jpg" crc="4126564443" ref="index"/>
+    <file name="lookinside1_sm-u6503-fr.png" crc="465818545" ref="index"/>
+    <file name="lookinside1_sm.jpg" crc="266550539" ref="index"/>
+    <file name="lookinside2_sm-u6508-fr.png" crc="3970073432" ref="index"/>
+    <file name="lookinside2_sm.jpg" crc="379647015" ref="index"/>
+    <file name="lookinside3_sm-u6511-fr.png" crc="488233273" ref="index"/>
+    <file name="lookinside3_sm.jpg" crc="10687703" ref="index"/>
+    <file name="lookinside4_sm-u6499-fr.png" crc="246299874" ref="index"/>
+    <file name="lookinside4_sm.jpg" crc="7690891" ref="index"/>
+    <file name="lookinside5_sm-u6514-fr.png" crc="3942437405" ref="index"/>
+    <file name="lookinside5_sm.jpg" crc="403864730" ref="index"/>
+    <file name="boot_flow.jpg" crc="3775540936" ref="learn"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4132104107"/>
-    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="46662031" ref="index"/>
-    <file name="play.css" crc="4142146429" ref="play"/>
-    <file name="learn.css" crc="4170673462" ref="learn"/>
-    <file name="try.css" crc="439816785" ref="try"/>
-    <file name="develop.css" crc="4013689392" ref="develop"/>
+    <file name="site_global.css" crc="4222550294"/>
+    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="59021700" ref="index"/>
+    <file name="play.css" crc="451330104" ref="play"/>
+    <file name="learn.css" crc="3936568817" ref="learn"/>
+    <file name="try.css" crc="258549893" ref="try"/>
+    <file name="develop.css" crc="3822184050" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -81,11 +96,15 @@
     <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
     <file name="webpro.js" crc="220831917" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play:index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="musewpslideshow.js" crc="224651946" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="276313855" ref="index"/>
+    <file name="touchswipe.js" crc="325405309" ref="index"/>
   </folder>
-  <file name="index.html" crc="3990296432" mt="1431704361591" redirect="true"/>
-  <file name="play.html" crc="4230276161" mt="1431720366998" redirect="true"/>
-  <file name="learn.html" crc="296246326" mt="1431719761343" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1431716639595" redirect="true"/>
-  <file name="develop.html" crc="3792406089" mt="1431724932829" redirect="true"/>
+  <file name="index.html" crc="3964572457" mt="1432234060477" redirect="true"/>
+  <file name="play.html" crc="4220612106" mt="1432218806968" redirect="true"/>
+  <file name="learn.html" crc="296498458" mt="1432234010680" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1432218791113" redirect="true"/>
+  <file name="develop.html" crc="291667411" mt="1432222820861" redirect="true"/>
 </manifest>
