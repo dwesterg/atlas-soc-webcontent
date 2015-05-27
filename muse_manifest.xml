@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432234118924">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432745253435">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -30,48 +30,26 @@
     <file name="soc_bridges.jpg" crc="199273124" ref="learn"/>
     <file name="register_view.jpg" crc="418281144" ref="learn"/>
     <file name="other_if.jpg" crc="82722835" ref="learn"/>
-    <file name="compiler.png" crc="3890518826" ref="learn"/>
-    <file name="debug.jpg" crc="3817062577" ref="learn"/>
-    <file name="eclipse.png" crc="7335542" ref="learn"/>
-    <file name="utilities-icon.png" crc="4081033682" ref="learn"/>
-    <file name="library.png" crc="4045537990" ref="learn"/>
-    <file name="hwlibs.jpg" crc="4223065740" ref="learn"/>
     <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try"/>
     <file name="hps-block-diagram.jpg" crc="503257085" ref="index"/>
     <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index"/>
     <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index"/>
-    <file name="streamline_icons_customize1.png" crc="149720104" ref="learn"/>
     <file name="soc_ecosystem.jpg" crc="4146661755" ref="learn"/>
     <file name="de0-nano-soc_blackdiagram_341-01.jpg" crc="3825713749" ref="play"/>
     <file name="cmd line.jpg" crc="520958827" ref="try"/>
     <file name="vcn_viewer.jpg" crc="112657178" ref="try"/>
     <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn"/>
     <file name="develop-icon.png" crc="513143481" ref="develop"/>
-    <file name="scan.jpg" crc="298511580" ref="index"/>
-    <file name="playback_play.png" crc="283244884" ref="index"/>
-    <file name="playback_play_b.png" crc="4254315524" ref="index"/>
-    <file name="chalktalk_sm-u6505-fr.png" crc="243998441" ref="index"/>
-    <file name="chalktalk_sm.jpg" crc="4126564443" ref="index"/>
-    <file name="lookinside1_sm-u6503-fr.png" crc="465818545" ref="index"/>
-    <file name="lookinside1_sm.jpg" crc="266550539" ref="index"/>
-    <file name="lookinside2_sm-u6508-fr.png" crc="3970073432" ref="index"/>
-    <file name="lookinside2_sm.jpg" crc="379647015" ref="index"/>
-    <file name="lookinside3_sm-u6511-fr.png" crc="488233273" ref="index"/>
-    <file name="lookinside3_sm.jpg" crc="10687703" ref="index"/>
-    <file name="lookinside4_sm-u6499-fr.png" crc="246299874" ref="index"/>
-    <file name="lookinside4_sm.jpg" crc="7690891" ref="index"/>
-    <file name="lookinside5_sm-u6514-fr.png" crc="3942437405" ref="index"/>
-    <file name="lookinside5_sm.jpg" crc="403864730" ref="index"/>
     <file name="boot_flow.jpg" crc="3775540936" ref="learn"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4222550294"/>
-    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="59021700" ref="index"/>
-    <file name="play.css" crc="451330104" ref="play"/>
-    <file name="learn.css" crc="3936568817" ref="learn"/>
-    <file name="try.css" crc="258549893" ref="try"/>
-    <file name="develop.css" crc="3822184050" ref="develop"/>
+    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="3879757897" ref="index"/>
+    <file name="play.css" crc="275103390" ref="play"/>
+    <file name="learn.css" crc="512462988" ref="learn"/>
+    <file name="try.css" crc="489773389" ref="try"/>
+    <file name="develop.css" crc="424492921" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -96,15 +74,11 @@
     <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
     <file name="webpro.js" crc="220831917" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play:index"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
-    <file name="musewpslideshow.js" crc="224651946" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="276313855" ref="index"/>
-    <file name="touchswipe.js" crc="325405309" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
   </folder>
-  <file name="index.html" crc="3964572457" mt="1432234060477" redirect="true"/>
-  <file name="play.html" crc="4220612106" mt="1432218806968" redirect="true"/>
-  <file name="learn.html" crc="296498458" mt="1432234010680" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1432218791113" redirect="true"/>
-  <file name="develop.html" crc="291667411" mt="1432222820861" redirect="true"/>
+  <file name="index.html" crc="496036750" mt="1432745157260" redirect="true"/>
+  <file name="play.html" crc="4230276161" mt="1432672749597" redirect="true"/>
+  <file name="learn.html" crc="331942494" mt="1432745202223" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1432672749597" redirect="true"/>
+  <file name="develop.html" crc="4193583178" mt="1432744938536" redirect="true"/>
 </manifest>
