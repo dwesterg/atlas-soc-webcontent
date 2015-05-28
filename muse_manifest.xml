@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432745253435">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432823822523">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -45,9 +45,9 @@
   <folder name="css">
     <file name="site_global.css" crc="4222550294"/>
     <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="3879757897" ref="index"/>
+    <file name="index.css" crc="424007956" ref="index"/>
     <file name="play.css" crc="275103390" ref="play"/>
-    <file name="learn.css" crc="512462988" ref="learn"/>
+    <file name="learn.css" crc="3954788105" ref="learn"/>
     <file name="try.css" crc="489773389" ref="try"/>
     <file name="develop.css" crc="424492921" ref="develop"/>
   </folder>
@@ -65,6 +65,7 @@
     <file name="on.jpg" crc="2697029" mt="1431009868000"/>
     <file name="off.jpg" crc="239236417" mt="1430928724000"/>
     <file name="blink.jpg" crc="4037406787" mt="1430928697000"/>
+    <file name="atlas-soc_user_manual.pdf" crc="302613186" mt="1432753890000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:play:learn:try:develop"/>
@@ -76,9 +77,9 @@
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
   </folder>
-  <file name="index.html" crc="496036750" mt="1432745157260" redirect="true"/>
+  <file name="index.html" crc="409693276" mt="1432760367707" redirect="true"/>
   <file name="play.html" crc="4230276161" mt="1432672749597" redirect="true"/>
-  <file name="learn.html" crc="331942494" mt="1432745202223" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1432672749597" redirect="true"/>
-  <file name="develop.html" crc="4193583178" mt="1432744938536" redirect="true"/>
+  <file name="learn.html" crc="376340487" mt="1432823792978" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1432754492255" redirect="true"/>
+  <file name="develop.html" crc="4193583178" mt="1432754592838" redirect="true"/>
 </manifest>

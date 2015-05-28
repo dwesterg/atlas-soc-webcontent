@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E7;
-	background-color: #406849;
+	color: #000019;
+	background-color: #45D914;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 599.7px;
+	min-height: 600px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -503,7 +502,7 @@
 
 #u914-4
 {
-	z-index: 295;
+	z-index: 292;
 	width: 227px;
 	min-height: 43px;
 	background-color: transparent;
@@ -520,8 +519,6 @@
 	border-style: solid;
 	border-color: #7F7F7F;
 	background-color: transparent;
-	top: -6px;
-	margin-bottom: -6px;
 	position: relative;
 }
 
@@ -1028,7 +1025,7 @@
 	left: 377px;
 }
 
-#u2302
+#u1294
 {
 	z-index: 212;
 	width: 963px;
@@ -1036,107 +1033,9 @@
 	position: relative;
 }
 
-#u2305-4
-{
-	z-index: 213;
-	width: 951px;
-	min-height: 22px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	background-color: #DEDEDE;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	line-height: 22px;
-	position: relative;
-}
-
-#u2305-4:hover
-{
-	background-color: #F2F2F2;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	min-height: 22px;
-	width: 951px;
-	margin: 0px;
-}
-
-#u2305-4:active
-{
-	background-color: #F2F2F2;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	min-height: 22px;
-	width: 951px;
-	margin: 0px;
-}
-
-#u2305-4.AccordionPanelTabOpen p
-{
-	color: #000000;
-	visibility: inherit;
-	line-height: 1.2;
-	font-size: 18px;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
-	font-weight: bold;
-	padding: 0px;
-}
-
-#u2303
-{
-	z-index: 217;
-	width: 961px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	background-color: #FFFFFF;
-	padding-bottom: 22px;
-	position: relative;
-}
-
-#u2307-37
-{
-	z-index: 218;
-	width: 920px;
-	min-height: 62px;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: -1px;
-	left: 18px;
-}
-
-#u2307-31,#u2307-33
-{
-	font-style: italic;
-}
-
-#u6779
-{
-	z-index: 255;
-	width: 920px;
-	min-height: 375px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 146px;
-	left: 18px;
-}
-
-#u1294
-{
-	z-index: 256;
-	width: 963px;
-	background-color: transparent;
-	position: relative;
-}
-
 #u1297-4
 {
-	z-index: 257;
+	z-index: 213;
 	width: 951px;
 	min-height: 22px;
 	border-width: 1px;
@@ -1170,7 +1069,91 @@
 	margin: 0px;
 }
 
-#u877-4.AccordionPanelTabOpen,#u1339-4.AccordionPanelTabOpen,#u1631-4.AccordionPanelTabOpen,#u2305-4.AccordionPanelTabOpen,#u1297-4.AccordionPanelTabOpen
+#u877-4.AccordionPanelTabOpen p,#u1339-4.AccordionPanelTabOpen p,#u1631-4.AccordionPanelTabOpen p,#u1297-4.AccordionPanelTabOpen p
+{
+	color: #000000;
+	visibility: inherit;
+}
+
+#u1295
+{
+	z-index: 217;
+	width: 961px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	padding-bottom: 9px;
+	position: relative;
+}
+
+#u1298-15
+{
+	z-index: 218;
+	width: 460px;
+	min-height: 106px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 18px;
+}
+
+#u7121-15
+{
+	z-index: 233;
+	width: 460px;
+	min-height: 106px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 478px;
+}
+
+#u2302
+{
+	z-index: 248;
+	width: 963px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u2305-4
+{
+	z-index: 249;
+	width: 951px;
+	min-height: 22px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	background-color: #DEDEDE;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 22px;
+	position: relative;
+}
+
+#u2305-4:hover
+{
+	background-color: #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 22px;
+	width: 951px;
+	margin: 0px;
+}
+
+#u2305-4:active
+{
+	background-color: #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 22px;
+	width: 951px;
+	margin: 0px;
+}
+
+#u877-4.AccordionPanelTabOpen,#u1339-4.AccordionPanelTabOpen,#u1631-4.AccordionPanelTabOpen,#u1297-4.AccordionPanelTabOpen,#u2305-4.AccordionPanelTabOpen
 {
 	background-color: #FFFFFF;
 	padding-top: 10px;
@@ -1180,41 +1163,34 @@
 	margin: 0px;
 }
 
-#u877-4.AccordionPanelTabOpen p,#u1339-4.AccordionPanelTabOpen p,#u1631-4.AccordionPanelTabOpen p,#u1297-4.AccordionPanelTabOpen p
+#u2305-4.AccordionPanelTabOpen p
 {
 	color: #000000;
 	visibility: inherit;
+	line-height: 1.2;
+	font-size: 18px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-weight: bold;
+	padding: 0px;
 }
 
-#u1295
+#u2303
 {
-	z-index: 261;
+	z-index: 253;
 	width: 961px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
-	padding-bottom: 70px;
+	padding-bottom: 22px;
 	position: relative;
 }
 
-#u5519-7
+#u2307-37
 {
-	z-index: 288;
-	width: 460px;
-	min-height: 136px;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: -1px;
-	left: 478px;
-}
-
-#u1298-26
-{
-	z-index: 262;
-	width: 460px;
-	min-height: 106px;
+	z-index: 254;
+	width: 920px;
+	min-height: 62px;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
@@ -1222,14 +1198,33 @@
 	left: 18px;
 }
 
-#u4379-2,#u4379-3,#u4379-36,#u2307-9,#u2307-10,#u2307-11,#u2307-12,#u2307-13,#u2307-14,#u2307-15,#u2307-16,#u2307-17,#u2307-18,#u2307-19,#u2307-20,#u2307-21,#u2307-22,#u2307-23,#u2307-24,#u2307-25,#u2307-26,#u2307-27,#u2307-29,#u5519-3,#u5519-4,#u1298-2,#u1298-13
+#u4379-2,#u4379-3,#u4379-36,#u1298-2,#u7121-2,#u2307-9,#u2307-10,#u2307-11,#u2307-12,#u2307-13,#u2307-14,#u2307-15,#u2307-16,#u2307-17,#u2307-18,#u2307-19,#u2307-20,#u2307-21,#u2307-22,#u2307-23,#u2307-24,#u2307-25,#u2307-26,#u2307-27,#u2307-29
 {
 	line-height: 22px;
 }
 
-#u2307,#u2307-3,#u2307-4,#u2307-6,#u2307-7,#u2307-30,#u2307-34,#u5519-5,#u1298-3,#u1298-6,#u1298-9,#u1298-11,#u1298-14,#u1298-17,#u1298-19,#u1298-21,#u1298-23,#u1298-24
+#u1298-3,#u1298-6,#u1298-9,#u1298-11,#u1298-12,#u1298-13,#u7121-3,#u7121-6,#u7121-8,#u7121-10,#u7121-12,#u7121-13,#u2307,#u2307-3,#u2307-4,#u2307-6,#u2307-7,#u2307-30,#u2307-34
 {
 	line-height: 19px;
+}
+
+#u2307-31,#u2307-33
+{
+	font-style: italic;
+}
+
+#u6779
+{
+	z-index: 291;
+	width: 920px;
+	min-height: 375px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 146px;
+	left: 18px;
 }
 
 .AccordionPanelTab /* accordion */
