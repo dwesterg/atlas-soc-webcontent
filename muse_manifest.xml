@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432823822523">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432936554698">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -47,9 +47,9 @@
     <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="424007956" ref="index"/>
     <file name="play.css" crc="275103390" ref="play"/>
-    <file name="learn.css" crc="3954788105" ref="learn"/>
+    <file name="learn.css" crc="296723417" ref="learn"/>
     <file name="try.css" crc="489773389" ref="try"/>
-    <file name="develop.css" crc="424492921" ref="develop"/>
+    <file name="develop.css" crc="4148673926" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -77,9 +77,9 @@
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
   </folder>
-  <file name="index.html" crc="409693276" mt="1432760367707" redirect="true"/>
+  <file name="index.html" crc="409693276" mt="1432935533805" redirect="true"/>
   <file name="play.html" crc="4230276161" mt="1432672749597" redirect="true"/>
-  <file name="learn.html" crc="376340487" mt="1432823792978" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1432754492255" redirect="true"/>
-  <file name="develop.html" crc="4193583178" mt="1432754592838" redirect="true"/>
+  <file name="learn.html" crc="322993695" mt="1432936507887" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1432935580836" redirect="true"/>
+  <file name="develop.html" crc="3900265567" mt="1432936498102" redirect="true"/>
 </manifest>

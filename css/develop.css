@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #000019;
-	background-color: #4D3F79;
+	color: #0000F7;
+	background-color: #47BD86;
 }
 
 .html
@@ -361,7 +361,7 @@
 
 #u6172
 {
-	z-index: 225;
+	z-index: 235;
 	width: 119px;
 	background-color: transparent;
 	position: relative;
@@ -370,7 +370,7 @@
 
 #u2443-9
 {
-	z-index: 216;
+	z-index: 226;
 	width: 769px;
 	min-height: 76px;
 	background-color: transparent;
@@ -669,12 +669,6 @@
 	margin-right: -10000px;
 	margin-top: 7px;
 	left: 21px;
-}
-
-#u6231-14,#u6231-21,#u6231-23,#u6231-30
-{
-	line-height: 19px;
-	padding-left: 10px;
 }
 
 #u6231-17 > #u6231-16:before,#u6231-15 > #u6231-14:before,#u6231-26 > #u6231-25:before,#u6231-24 > #u6231-21:before,#u6231-24 > #u6231-23:before,#u6231-33 > #u6231-32:before,#u6231-31 > #u6231-30:before
@@ -1096,7 +1090,7 @@
 {
 	z-index: 173;
 	width: 918px;
-	height: 374px;
+	height: 403px;
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
@@ -1109,23 +1103,53 @@
 {
 	z-index: 174;
 	width: 918px;
-	height: 374px;
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
+	padding-bottom: 220px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
 }
 
-#u6141
+#u7183-7
 {
 	z-index: 175;
+	width: 189px;
+	min-height: 37px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 13px;
+	left: 21px;
+}
+
+#u6231-14,#u6231-21,#u6231-23,#u6231-30,#u7183-5
+{
+	line-height: 19px;
+	padding-left: 10px;
+}
+
+#u7185-3
+{
+	z-index: 182;
+	width: 183px;
+	min-height: 75px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 108px;
+	left: 21px;
+}
+
+#u6141
+{
+	z-index: 185;
 	width: 918px;
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 13px;
+	padding-bottom: 42px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1133,7 +1157,7 @@
 
 #u6161-40
 {
-	z-index: 176;
+	z-index: 186;
 	width: 885px;
 	background-color: transparent;
 	position: relative;
@@ -1142,7 +1166,7 @@
 	left: 21px;
 }
 
-#u6208-2,#u6232-5,#u6161-2,#u6161-10,#u6161-18
+#u6208-2,#u6232-5,#u7183-2,#u7183-3,#u6161-2,#u6161-10,#u6161-18
 {
 	line-height: 22px;
 }
@@ -1282,7 +1306,7 @@
 
 #u7112-4
 {
-	z-index: 227;
+	z-index: 237;
 	width: 299px;
 	min-height: 70px;
 	background-color: transparent;
@@ -1295,7 +1319,7 @@
 
 #u7113
 {
-	z-index: 231;
+	z-index: 241;
 	width: 105px;
 	background-color: transparent;
 	position: relative;
