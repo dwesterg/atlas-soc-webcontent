@@ -11,8 +11,8 @@
   <title>Start</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4222550294"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?496331192"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?424007956" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?341693689"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?360386231" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
@@ -26,230 +26,6 @@
 
   <!--HTML Widget code-->
   
-
-<style type="text/css">
-/* Base Canvas */
-.ytv-canvas{
-	display: block;
-	background: #000000;
-	overflow: hidden;
-	font-family: arial, sans-serif;
-    height:375px;
-	}
-.ytv-canvas ::-webkit-scrollbar{
-	border-left: 1px solid rgb(0,0,0);
-	width: 10px;
-	}
-.ytv-canvas ::-webkit-scrollbar-thumb{
-	background: rgba(255,255,255,0.4);
-	}
-/* Video */
-.ytv-video{
-	position: absolute;
-	top: 0;
-    right: 300px;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-	}
-.ytv-video iframe{
-	width: 100%;
-	height: 100%;
-	border: none;
-	outline: none;
-	display: block;
-}
-/* List */
-.ytv-list{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 300px;
-	}
-.ytv-list-inner{
-	overflow: auto;
-	position: absolute;
-	top: 52px;
-	right: 0;
-	 bottom: 0;
-     left: 0;
-     -webkit-overflow-scrolling: touch;
-}
-.ytv-list ul{
-	margin: 0;
-	padding: 0;
-    list-style-type: none;
-}
-.ytv-list .ytv-active a{
-	border-left: 4px solid #F70101;
-	background: rgba(255,255,255,0.1);
-}
-.ytv-list a{
-	display: block;
-	text-decoration: none;
-	font-size: 11px;
-	color: #FEFEFE;
-	padding: 10px;
-	padding-left: 8px;
-	border-top: 1px solid rgba(255,255,255,0.1);
-	border-bottom: 1px solid rgba(0,0,0,0.5);
-	border-left: 2px solid transparent;
-}
-.ytv-list a b{		
-	max-height: 45px;
-	overflow: hidden;
-	/*display: block;*/
-	text-overflow: ellipsis;
-}
-.ytv-list li:first-child a{ border-top: none; }
-.ytv-list li:last-child a{ border-bottom: none; }
-.ytv-list a:hover,
-.ytv-list-header .ytv-playlists a:hover{ background: rgba(255,255,255,0.1); }
-.ytv-list a:active,
-.ytv-list-header .ytv-playlists a:active{ background: rgba(0,0,0,0.4); }
-.ytv-list .ytv-content{ padding-left: 125px; }
-.ytv-list .ytv-thumb-stroke{
-	position: absolute;
-	top: 1px;
-	left: 1px;
-	bottom: 1px;
-	right: 1px;
-	z-index: 2;
-	outline: 1px solid rgba(0,0,0,0.1);
-}
-.ytv-list .ytv-thumb{
-	float: left;
-	position: relative;
-	outline: 1px solid rgba(0,0,0,0.5);
-}
-.ytv-list .ytv-thumb img{
-	width: 120px;
-	display: block;
-}
-.ytv-list .ytv-thumb span{
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-	color: #eee;
-	background: rgba(0,0,0,0.15);
-	font-size: 11px;
-	font-weight: bold;
-	padding: 0px 4px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-.ytv-views{
-	display: block;
-	 margin-top: 5px;
-	font-size: 10px;
-	font-weight: normal;
-	opacity: 0.3;
-}
-.ytv-list-header{
-	height: 52px;
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-.ytv-list-header a{
-	background: rgba(255,255,255,0.05);
-    position: relative;
-    z-index: 10;
-}
-.ytv-list-header img,
-.ytv-list .ytv-playlists .ytv-thumb img{
-	width: 30px;
-	vertical-align: middle;
-}
-.ytv-list-header span{		
-	padding-left: 10px;
-	font-size: 12px;
-	font-weight: bold;
-}
-/* Playlists */
-.ytv-playlists{
-    z-index: 9;
-    position: absolute;
-    background: #000000;
-    top:52px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: auto;
-    display: none;
-}
-.ytv-playlists img,
-.ytv-list-header img{
-	float: left;
-}
-.ytv-playlists a span,
-.ytv-list-header a span{	
-	white-space: nowrap;
-	padding-left: 10px;
-	display: block;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-.ytv-list-header > a span{
-	line-height: 30px;
-}
-.ytv-list-header .ytv-playlists a{
-	background: none;
-}
-.ytv-playlist-open .ytv-playlists{
-	display: block;
-}
-/* Modifiers */
-.ytv-relative{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	}
-.ytv-full{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	margin: 0 !important;
-	}
-.ytv-arrow {
-	height: 10px;
-	width: 0;
-	position: relative;
-	top: 10px;
-	right: 5px;
-	border: 10px solid transparent;
-	float: right;
-	border-top-color: rgba(0,0,0,0.4);
-	display: none;
-	}
-	.ytv-has-playlists .ytv-arrow{
-		display: inline-block;
-		}
-	.ytv-playlist-open .ytv-arrow{
-		border-color: transparent;
-		border-bottom-color: rgba(0,0,0,0.4);
-		top: -10px;
-		}
-.ytv-list-inner a {
-	min-height:80px;
-}
-.ytv-list-header a:after,
-.ytv-clear:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-	}
-
-</style>
-
 <div id="fb-root"></div>
 <script>
 (function(d, s, id) {
@@ -290,10 +66,10 @@
      <div class="clip_frame grpelem" id="u817"><!-- image -->
       <img class="block" id="u817_img" src="images/start-here.jpg" alt="" width="100" height="100"/>
      </div>
-     <div class="body_text clearfix grpelem" id="u823-8"><!-- content -->
-      <p>Welcome to the Atlas-SoC Software Evaluation Kit!</p>
+     <div class="body_text clearfix grpelem" id="u823-16"><!-- content -->
+      <p>Welcome to the Atlas-SoC Software Development Platform!</p>
       <p>&nbsp;</p>
-      <p>This kit is based on the Terasic DE0-Nano-SoC board, developed for the Altera University program. The board hardware is the same, but the embedded software and reference designs are different. If you plan to use this board in a classroom environment please click here. If, however, you wish to evaluate the Altera SoC software design tools and flow, read on . . . here are some things you can do with this kit:</p>
+      <p>This kit will help you learn about Altera<span class="superscript">®</span> SoC devices which combine the performance of a dual-core ARM<span class="superscript">®</span> Cortex<span class="superscript">TM</span>-A9 MPCore<span class="superscript">TM</span> processor with the flexibility of programmable logic. This new class of device opens exciting new possibilities for the embedded developer. The following web pages will guide you through the steps of learning about the board from evaluation to full development. Here are some things you can do with this kit:</p>
       <p>&nbsp;</p>
      </div>
     </div>
@@ -309,7 +85,7 @@
       <p class="section_head">&nbsp;</p>
      </div>
      <div class="body_text clearfix grpelem" id="u828-4"><!-- content -->
-      <p>Access technical information and resource links to accelerate the SoC learning curve.</p>
+      <p>Access technical information and resource links to quickly learn the fundamentals of SoC development.</p>
      </div>
     </div>
     <div class="clearfix colelem" id="pu829-6"><!-- group -->
@@ -324,7 +100,7 @@
     <div class="clearfix colelem" id="pu831-4"><!-- group -->
      <a class="nonblock nontext clearfix grpelem" id="u831-4" href="develop.html"><!-- content --><p class="Left-hand-Navigation">Develop</p></a>
      <div class="body_text clearfix grpelem" id="u832-4"><!-- content -->
-      <p>Take the next step. Download and install the development tools (hardware and software) on your PC or workstation. Learn about daughter cards, open source projects, and additional technical information available specifically for this board.</p>
+      <p>Take the next step. Download and install the development tools on your PC or workstation. Learn about daughter cards, open source projects, and additional technical information available specifically for this board.</p>
      </div>
     </div>
     <div class="bold clearfix colelem" id="u914-4"><!-- content -->
@@ -335,9 +111,7 @@
      <li class="AccordionPanel clearfix colelem" id="u1338"><!-- vertical box --><div class="AccordionPanelTab section_head clearfix colelem" id="u1339-4"><!-- content --><p>Learn About The LEDs and Switch Settings</p></div><a class="nonblock nontext AccordionPanelContent disn clearfix colelem" id="u1340" href="assets/de0-nano-soc_user_manual.pdf"><!-- column --><div class="clearfix colelem" id="pu1355-5"><!-- group --><div class="clearfix grpelem" id="u1355-5"><!-- content --><p class="bold">FPGA Configuration</p><p class="section_head">&nbsp;</p></div><div class="clip_frame grpelem" id="u5889"><!-- image --><img class="block" id="u5889_img" src="images/de0-nano-soc_blackdiagram_33-01.jpg" alt="" width="309" height="137"/></div></div><div class="clip_frame colelem" id="u5901"><!-- image --><img class="block" id="u5901_img" src="images/de0-nano-soc_blackdiagram_340-01.jpg" alt="" width="765" height="261"/></div><div class="clearfix colelem" id="pu1425-4"><!-- group --><div class="bold clearfix grpelem" id="u1425-4"><!-- content --><p>Processor Reset</p></div><div class="clip_frame grpelem" id="u1426"><!-- image --><img class="block" id="u1426_img" src="images/reset_pushbuttons.jpg" alt="" width="528" height="364"/></div></div><div class="clip_frame colelem" id="u1432"><!-- image --><img class="block" id="u1432_img" src="images/hps_reset_tree.jpg" alt="" width="518" height="351"/></div><div class="clip_frame colelem" id="u2428"><!-- image --><img class="block" id="u2428_img" src="images/reset_pb_table.jpg" alt="" width="770" height="146"/></div><div class="clearfix colelem" id="pu1412-5"><!-- group --><div class="clearfix grpelem" id="u1412-5"><!-- content --><p class="bold">System LEDs</p><p class="section_head">&nbsp;</p></div><div class="clip_frame grpelem" id="u1413"><!-- image --><img class="block" id="u1413_img" src="images/board_leds.jpg" alt="" width="768" height="351"/></div></div><div class="clip_frame colelem" id="u2422"><!-- image --><img class="block" id="u2422_img" src="images/led_table.jpg" alt="" width="775" height="248"/></div><div class="clearfix colelem" id="pu1438"><!-- group --><div class="clip_frame grpelem" id="u1438"><!-- image --><img class="block" id="u1438_img" src="images/user_pushbuttons.jpg" alt="" width="508" height="255"/></div><div class="clearfix grpelem" id="u1444-5"><!-- content --><p class="bold">User Push Buttons, Slide Switches &amp; LEDs</p><p class="section_head">&nbsp;</p></div></div><div class="clearfix colelem" id="pu1446"><!-- group --><div class="clip_frame grpelem" id="u1446"><!-- image --><img class="block" id="u1446_img" src="images/slide_switches.jpg" alt="" width="272" height="277"/></div><div class="clip_frame grpelem" id="u1452"><!-- image --><img class="block" id="u1452_img" src="images/user_leds.jpg" alt="" width="457" height="285"/></div></div><div class="clip_frame colelem" id="u1458"><!-- image --><img class="block" id="u1458_img" src="images/user_pb_led_table.jpg" alt="" width="769" height="469"/></div></a></li>
      <li class="AccordionPanel clearfix colelem" id="u1630"><!-- vertical box --><div class="AccordionPanelTab section_head clearfix colelem" id="u1631-4"><!-- content --><p>See What's Running On The SoC Device</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1632"><!-- group --><div class="clearfix grpelem" id="u4379-46"><!-- content --><p class="bold" id="u4379-2">SoC Device Configuration:</p><p class="bold" id="u4379-3">&nbsp;</p><p class="bold" id="u4379-5">FPGA Hardware</p><ul class="list0 nls-None" id="u4379-14"><li class="body_text" id="u4379-7">32-bit FFT</li><li class="body_text" id="u4379-9">x2 DMA</li><li class="body_text" id="u4379-11">4k SRAM buffer</li><li class="body_text" id="u4379-13">GPIO for LEDs, push buttons &amp; slide switches</li></ul><p class="bold" id="u4379-15">&nbsp;</p><p class="bold" id="u4379-17">HPS I/O</p><ul class="list0 nls-None" id="u4379-32"><li class="body_text" id="u4379-19">32-bit DDR3 SDRAM</li><li class="body_text" id="u4379-21">x1 10/100/1000 Ethernet port</li><li class="body_text" id="u4379-23">x1 USB 2.0 OTG port</li><li class="body_text" id="u4379-25">SD Card I/F</li><li class="body_text" id="u4379-27">GPIO for LEDs &amp; push buttons</li><li class="body_text" id="u4379-29">x1 UART for stdio</li><li class="body_text" id="u4379-31">x1 I2C for accelerometer</li></ul><p class="body_text" id="u4379-33">&nbsp;</p><p class="body_text" id="u4379-34">&nbsp;</p><p class="bold" id="u4379-36">Embedded Software:</p><p class="body_text" id="u4379-37">&nbsp;</p><p class="bold" id="u4379-39">OS: Linux</p><ul class="list0 nls-None" id="u4379-44"><li class="body_text" id="u4379-41">Kernel v3.10-LTSI</li><li class="body_text" id="u4379-43">Angstrom v2014.12 Yocto1.7</li></ul></div><div class="clip_frame grpelem" id="u5465"><!-- image --><img class="block" id="u5465_img" src="images/hps-block-diagram.jpg" alt="" width="561" height="452"/></div></div></li>
      <li class="AccordionPanel clearfix colelem" id="u1294"><!-- vertical box --><div class="AccordionPanelTab section_head clearfix colelem" id="u1297-4"><!-- content --><p>Documentation &amp; Technical Support</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1295"><!-- group --><div class="clearfix grpelem" id="u1298-15"><!-- content --><p class="bold" id="u1298-2">Documentation</p><p class="body_text" id="u1298-3">&nbsp;</p><ul class="list0 nls-None" id="u1298-10"><li class="body_text" id="u1298-6"><a class="nonblock" href="assets/atlas-soc_user_manual.pdf">Board User Guide</a></li><li class="body_text" id="u1298-9"><a class="nonblock" href="assets/de0-nano-soc.pdf">Schematic</a></li></ul><p class="body_text" id="u1298-11">&nbsp;</p><p class="notes_to_developers" id="u1298-12">&nbsp;</p><p class="notes_to_developers" id="u1298-13">&nbsp;</p></div><div class="clearfix grpelem" id="u7121-15"><!-- content --><p class="bold" id="u7121-2">Support Links</p><p class="body_text" id="u7121-3">&nbsp;</p><ul class="list0 nls-None" id="u7121-11"><li class="body_text" id="u7121-6"><a class="nonblock" href="http://www.rocketboards.org/foswiki/Documentation/AtlasSoCEvaluationKit">Rocketboard.org - Atlas-SoC kit page</a></li><li class="body_text" id="u7121-8">Mailing List</li><li class="body_text" id="u7121-10">Forum</li></ul><p class="notes_to_developers" id="u7121-12">&nbsp;</p><p class="notes_to_developers" id="u7121-13">&nbsp;</p></div></div></li>
-     <li class="AccordionPanel clearfix colelem" id="u2302"><!-- vertical box --><div class="AccordionPanelTab section_head clearfix colelem" id="u2305-4"><!-- content --><p>Why Use An SoC FPGA</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u2303"><!-- group --><div class="clearfix grpelem" id="u2307-37"><!-- content --><p class="notes_to_developers" id="u2307">&nbsp;</p><p class="body_text" id="u2307-3">Not sure why you might use an SoC FPGA?</p><p class="body_text" id="u2307-4">&nbsp;</p><p class="body_text" id="u2307-6">Here are some resources that may help answer that question and, along the way, show you why this type of device may be just the answer for your next design:</p><p class="body_text" id="u2307-7">&nbsp;</p><p class="bold" id="u2307-9">Videos:</p><p class="bold" id="u2307-10">&nbsp;</p><p class="bold" id="u2307-11">&nbsp;</p><p class="bold" id="u2307-12">&nbsp;</p><p class="bold" id="u2307-13">&nbsp;</p><p class="bold" id="u2307-14">&nbsp;</p><p class="bold" id="u2307-15">&nbsp;</p><p class="bold" id="u2307-16">&nbsp;</p><p class="bold" id="u2307-17">&nbsp;</p><p class="bold" id="u2307-18">&nbsp;</p><p class="bold" id="u2307-19">&nbsp;</p><p class="bold" id="u2307-20">&nbsp;</p><p class="bold" id="u2307-21">&nbsp;</p><p class="bold" id="u2307-22">&nbsp;</p><p class="bold" id="u2307-23">&nbsp;</p><p class="bold" id="u2307-24">&nbsp;</p><p class="bold" id="u2307-25">&nbsp;</p><p class="bold" id="u2307-26">&nbsp;</p><p class="bold" id="u2307-27">&nbsp;</p><p class="bold" id="u2307-29">White Papers:</p><p class="body_text" id="u2307-30">&nbsp;</p><ul class="list0 nls-None" id="u2307-35"><li class="body_text" id="u2307-34"><a class="nonblock" href="assets/wp-01202-embedded-system-soc-design-considerations.pdf"><span id="u2307-31">Architecture Matters: Choosing the Right SoC FPGA for Your Applicatio</span></a><span id="u2307-33">n</span></li></ul></div><div class="grpelem" id="u6779"><!-- custom html -->
-<div id="frame"></div>
-</div></div></li>
+     <li class="AccordionPanel clearfix colelem" id="u2302"><!-- vertical box --><div class="AccordionPanelTab section_head clearfix colelem" id="u2305-4"><!-- content --><p>Why Use An SoC FPGA</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u2303"><!-- group --><div class="clearfix grpelem" id="u2307-19"><!-- content --><p class="notes_to_developers" id="u2307">&nbsp;</p><p class="body_text" id="u2307-3">Not sure why you might use an SoC FPGA?</p><p class="body_text" id="u2307-4">&nbsp;</p><p class="body_text" id="u2307-6">Here are some resources that may help answer that question and, along the way, show you why this type of device may be just the answer for your next design:</p><p class="body_text" id="u2307-7">&nbsp;</p><p class="bold" id="u2307-9">White Papers:</p><p class="body_text" id="u2307-10">&nbsp;</p><ul class="list0 nls-None" id="u2307-14"><li class="body_text" id="u2307-13"><a class="nonblock" href="assets/wp-01202-embedded-system-soc-design-considerations.pdf"><span id="u2307-11">Architecture Matters: Choosing the Right SoC FPGA for Your Application</span></a></li></ul><p class="body_text" id="u2307-15">&nbsp;</p><p class="bold" id="u2307-17">Videos:</p></div><div class="grpelem" id="u7270"><!-- simple frame --></div><div class="TabbedPanelsWidget clearfix grpelem" id="tab-panelu7666"><!-- vertical box --><div class="TabbedPanelsTabGroup clearfix colelem" id="u7667"><!-- horizontal box --><div class="TabbedPanelsTab clearfix grpelem" id="u7676"><!-- horizontal box --><div class=" NoWrap tab_head clearfix grpelem" id="u7679-4"><!-- content --><p>Videos On YouTube</p></div></div><div class="TabbedPanelsTab clearfix grpelem" id="u7668"><!-- horizontal box --><div class=" NoWrap tab_head clearfix grpelem" id="u7670-4"><!-- content --><p>Videos On The SD Card</p></div></div></div><div class="TabbedPanelsContentGroup clearfix colelem" id="u7680"><!-- stack box --><div class="TabbedPanelsContent clearfix grpelem" id="u7685"><!-- group --><div class="body_text clearfix grpelem" id="u7686-9"><!-- content --><p>If you have a connection to the Internet you can access videos from a YouTube&nbsp; playlist.</p><p>&nbsp;</p><p>To select a video, click the icon in the top left corner of the video frame and scroll to the desired topic.</p><p>&nbsp;</p><p id="u7686-7">&nbsp;</p></div><div class="grpelem" id="u7747"><!-- custom html --><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOPkWZQt5OE_zNvdLTzwXUmyKdqmoxHOf" frameborder="0" allowfullscreen></iframe></div></div><div class="TabbedPanelsContent invi clearfix grpelem" id="u7689"><!-- column --><div class="body_text clearfix colelem" id="u7690-4"><!-- content --><p>If you don't have an Internet connection you can download and watch videos stored on the Atlas-SoC board SD Card by clicking any of the images below:</p></div><div class="clearfix colelem" id="pu7849"><!-- group --><a class="nonblock nontext clip_frame grpelem" id="u7849" href="assets/why_soc_fpga.mp4"><!-- image --><img class="block" id="u7849_img" src="images/chalktalk_sm_200.jpg" alt="" width="200" height="111"/></a><div class="body_text clearfix grpelem" id="u7856-7"><!-- content --><p id="u7856-2">Why Do I Need A Customizable ARM-based SoC?</p><p>&nbsp;</p><p>EE Journal - 20:42</p></div><a class="nonblock nontext clip_frame grpelem" id="u7861" href="assets/a-look-inside--soc-fpgas-introduction-(part-1-of-5).mp4"><!-- image --><img class="block" id="u7861_img" src="images/lookinside1_sm_200.jpg" alt="" width="200" height="111"/></a><div class="body_text clearfix grpelem" id="u7859-10"><!-- content --><p id="u7859-2">A Look Inside SoC FPGAs</p><p id="u7859-4">PArt 1: Introduction</p><p>&nbsp;</p><p>&nbsp;</p><p>Silicon Insider - 8:47</p></div></div><div class="clearfix colelem" id="pu7875"><!-- group --><a class="nonblock nontext clip_frame grpelem" id="u7875" href="assets/a-look-inside--soc-fpgas-system-performance-(part-2-of-5).mp4"><!-- image --><img class="block" id="u7875_img" src="images/lookinside2_sm_200.jpg" alt="" width="200" height="111"/></a><div class="body_text clearfix grpelem" id="u7874-10"><!-- content --><p id="u7874-2">A Look Inside SoC FPGAs</p><p id="u7874-4">Part 2: System Performance</p><p id="u7874-5">&nbsp;</p><p>&nbsp;</p><p>Silicon Insider - 10:32</p></div><a class="nonblock nontext clip_frame grpelem" id="u7887" href="assets/a-look-inside--soc-fpgas-reliability-and-flexibility-(part-3-of-5).mp4"><!-- image --><img class="block" id="u7887_img" src="images/lookinside3_sm_200.jpg" alt="" width="200" height="111"/></a><div class="body_text clearfix grpelem" id="u7869-9"><!-- content --><p id="u7869-2">A Look Inside SoC FPGAs</p><p id="u7869-4">Part 3: Reliability and Flexibility</p><p>&nbsp;</p><p>Silicon Insider - 8:21</p></div></div><div class="clearfix colelem" id="pu7901"><!-- group --><a class="nonblock nontext clip_frame grpelem" id="u7901" href="assets/a-look-inside--soc-fpgas-system-cost-and-power-(part-4-of-5).mp4"><!-- image --><img class="block" id="u7901_img" src="images/lookinside4_sm_200.jpg" alt="" width="200" height="111"/></a><div class="body_text clearfix grpelem" id="u7894-9"><!-- content --><p id="u7894-2">A Look Inside SoC FPGAs</p><p id="u7894-4">Part 4: System Cost and Power</p><p>&nbsp;</p><p>Silicon Insider - 9:39</p></div><a class="nonblock nontext clip_frame grpelem" id="u7907" href="assets/a-look-inside--soc-fpgas-embedded-development-tools-(part-5-of-5).mp4"><!-- image --><img class="block" id="u7907_img" src="images/lookinside5_sm_200.jpg" alt="" width="200" height="111"/></a><div class="body_text clearfix grpelem" id="u7893-10"><!-- content --><p id="u7893-2">A Look Inside SoC FPGAs</p><p id="u7893-4">Part 5: Embedded Software</p><p id="u7893-5">&nbsp;</p><p id="u7893-6">&nbsp;</p><p>Silicon Insider - 11:30</p></div></div></div></div></div></div></li>
     </ul>
     <div class="verticalspacer"></div>
     <div class="browser_width colelem" id="u279-bw">
@@ -374,6 +148,7 @@ typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw E
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#tab-panelu7666', function(elem) { return new WebPro.Widget.TabbedPanels(elem, {event:'mouseover',defaultIndex:0}); });/* #tab-panelu7666 */
 Muse.Utils.initWidget('#accordionu861', function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu861 */
 Muse.Utils.resizeHeight()/* resize height */
 Muse.Utils.fullPage('#page');/* 100% height page */
@@ -381,30 +156,5 @@ Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
-  
-  <!--HTML Widget code-->
-  
-<script>
-(function(e,t){"use strict";var n=n||function(n,i){var a=function(){},s={element:null,user:null,fullscreen:!1,accent:"#fff",controls:!0,annotations:!1,autoplay:!1,chainVideos:!0,browsePlaylists:!1,events:{videoReady:a,stateChange:a}},l={},r={events:{addEvent:function(e,t,n){return e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):void 0},removeEvent:function(e,t,n){return e.addEventListener?e.removeEventListener(t,n,!1):e.attachEvent?e.detachEvent("on"+t,n):void 0},prevent:function(e){e.preventDefault?e.preventDefault():e.returnValue=!1}},addCSS:function(e){var n=t.getElementsByTagName("head")[0],i=t.createElement("style");i.type="text/css",i.styleSheet?i.styleSheet.cssText=e:i.appendChild(t.createTextNode(e)),n.appendChild(i)},addCommas:function(e){for(var t=e.split("."),n=t[0],i=t.length>1?"."+t[1]:"",a=/(\d+)(\d{3})/;a.test(n);)n=n.replace(a,"$1,$2");return n+i},parentUntil:function(e,t){for(;e.parentNode;){if(e.getAttribute&&e.getAttribute(t))return e;e=e.parentNode}return null},ajax:{get:function(e,t){jQuery.ajax({url:e,type:"GET",dataType:"jsonp",error:function(){alert("An error occurred while loading YouTube videos")},success:t})}},endpoints:{base:"http://gdata.youtube.com/",userInfo:function(){return r.endpoints.base+"feeds/api/users/"+s.user+"?v=2&alt=json-in-script"},userVids:function(){return r.endpoints.base+"feeds/api/users/"+s.user+"/uploads/?v=2&alt=json-in-script&format=5&max-results=50"},userPlaylists:function(){return r.endpoints.base+"feeds/api/users/"+s.user+"/playlists/?v=2&alt=json-in-script&format=5&max-results=50"},playlistVids:function(){return r.endpoints.base+"feeds/api/playlists/"+s.playlist+"?v=2&alt=json-in-script&format=5&max-results=50"}},deepExtend:function(e,t){var n;for(n in t)t[n]&&t[n].constructor&&t[n].constructor===Object?(e[n]=e[n]||{},r.deepExtend(e[n],t[n])):e[n]=t[n];return e}},d={youtube:function(n){var i=t.createElement("script");i.src="https://www.youtube.com/iframe_api";var a=t.getElementsByTagName("script")[0];a.parentNode.insertBefore(i,a),e.onYouTubeIframeAPIReady=n},build:function(){s.element.className="ytv-canvas",s.fullscreen&&(s.element.className+=" ytv-full"),r.addCSS(".ytv-list .ytv-active a{border-left-color: "+s.accent+";}")},playlists:function(e){if(e&&e.feed){var t,n='<div class="ytv-playlists"><ul>',i=e.feed.entry;for(t=0;t<i.length;t++){var a={title:i[t].title.$t,plid:i[t].yt$playlistId.$t,thumb:i[t].media$group.media$thumbnail[1].url};n+='<a href="#" data-ytv-playlist="'+a.plid+'">',n+='<div class="ytv-thumb"><div class="ytv-thumb-stroke"></div><img src="'+a.thumb+'"></div>',n+="<span>"+a.title+"</span>",n+="</a>"}n+="</ul></div>";var s=jQuery(".ytv-list-header"),l=s.children[0];l.href="#",l.target="",l.setAttribute("data-ytv-playlist-toggle","true"),s.innerHTML+=n,s.className+=" ytv-has-playlists"}},compileList:function(e){e&&e.feed&&r.ajax.get(r.endpoints.userInfo(),function(t){var n,i="",a={title:t.entry.title.$t,url:"http://youtube.com/user/"+t.entry.yt$username.display,thumb:t.entry.media$thumbnail.url,summary:t.entry.summary.$t,subscribers:t.entry.yt$statistics.subscriberCount,views:t.entry.yt$statistics.totalUploadViews},l=e.feed.entry,u=!0;for(s.playlist&&(a.title+=" &middot; "+e.feed.media$group.media$title.$t),i+='<div class="ytv-list-header">',i+='<a href="'+a.url+'" target="_blank">',i+='<img src="'+a.thumb+'">',i+="<span>"+a.title+' <i class="ytv-arrow down"></i></span>',i+="</a>",i+="</div>",i+='<div class="ytv-list-inner"><ul>',n=0;n<l.length;n++)if(l[n].media$group.yt$duration){var c={title:l[n].title.$t,slug:l[n].media$group.yt$videoid.$t,link:l[n].link[0].href,published:l[n].published.$t,rating:l[n].yt$rating,stats:l[n].yt$statistics,duration:l[n].media$group.yt$duration.seconds,thumb:l[n].media$group.media$thumbnail[1].url},v=new Date(null);v.setSeconds(c.duration);var y=v.toTimeString().substr(0,8).split(":"),p=y[1]+":"+y[2],m="";u===!0&&(m=' class="ytv-active"',u=c.slug),i+="<li"+m+'><a href="#" data-ytv="'+c.slug+'" class="ytv-clear">',i+='<div class="ytv-thumb"><div class="ytv-thumb-stroke"></div><span>'+p+'</span><img src="'+c.thumb+'"></div>',i+='<div class="ytv-content"><b>'+c.title+'</b><span class="ytv-views">'+r.addCommas(c.stats.viewCount)+" Views</span></div>",i+="</a></li>"}i+="</ul></div>",s.element.innerHTML='<div class="ytv-relative"><div class="ytv-video"><div id="ytv-video-player"></div></div><div class="ytv-list">'+i+"</div></div>",o.logic.loadVideo(u,s.autoplay),s.browsePlaylists&&r.ajax.get(r.endpoints.userPlaylists(),d.playlists)})}},o={logic:{playerStateChange:function(e){console.log(e)},loadVideo:function(e,n){jQuery(".ytv-video").html('<div id="ytv-video-player"></div>'),l.player=new YT.Player("ytv-video-player",{videoId:e,events:{onReady:s.events.videoReady,onStateChange:function(e){if(0===e.target.getPlayerState()&&s.chainVideos){var t=jQuery(".ytv-active").nextSibling,n=t.children[0];n.click()}s.events.stateChange.call(this,e)}},playerVars:{enablejsapi:1,origin:t.domain,controls:s.controls?1:0,rel:0,showinfo:0,iv_load_policy:s.annotations?"":3,autoplay:n?1:0}})}},endpoints:{videoClick:function(e){var t=r.parentUntil(e.target?e.target:e.srcElement,"data-ytv"),n=jQuery(t).attr("data-ytv");t&&(r.events.prevent(e),jQuery(".ytv-active").removeClass(),t.parentNode.className="ytv-active",o.logic.loadVideo(n,!0))},playlistToggle:function(e){var t=r.parentUntil(e.target?e.target:e.srcElement,"data-ytv-playlist-toggle");t&&t.dataset&&t.dataset.ytvPlaylistToggle&&(r.events.prevent(e),jQuery(".ytv-list-header").toggleClass("ytv-playlist-open"))},playlistClick:function(e){var t=r.parentUntil(e.target?e.target:e.srcElement,"data-ytv-playlist");t&&t.dataset&&t.dataset.ytvPlaylist&&(r.events.prevent(e),s.playlist=t.dataset.ytvPlaylist,t.children[1].innerHTML="Loading...",r.ajax.get(r.endpoints.playlistVids(),function(e){jQuery(".ytv-list-header").removeClass("ytv-playlist-open"),d.compileList(e)}))}},loadAds:function(){r.ajax.get(r.endpoints.adPlaylist(),function(e){var t,n=e.feed.entry;for(l.ads=[],t=0;t<n.length;t++)l.ads.push({title:n[t].title.$t,slug:n[t].media$group.yt$videoid.$t,duration:parseInt(n[t].media$group.yt$duration.seconds,10)})})},bindEvents:function(){r.events.addEvent(s.element,"click",o.endpoints.videoClick),r.events.addEvent(s.element,"click",o.endpoints.playlistToggle),r.events.addEvent(s.element,"click",o.endpoints.playlistClick)}},u=function(e,n){r.deepExtend(s,n),s.element="string"==typeof e?t.getElementById(e):e,s.element&&s.user&&d.youtube(function(){d.build(),o.bindEvents(),r.ajax.get(s.playlist?r.endpoints.playlistVids():r.endpoints.userVids(),d.compileList)})};this.destroy=function(){r.events.removeEvent(s.element,"click",o.endpoints.videoClick),r.events.removeEvent(s.element,"click",o.endpoints.playlistToggle),r.events.removeEvent(s.element,"click",o.endpoints.playlistClick),s.element.className="",s.element.innerHTML=""},this.fullscreen={state:function(){return-1!==s.element.className.indexOf("ytv-full")},enter:function(){-1===s.element.className.indexOf("ytv-full")&&(s.element.className+="ytv-full")},exit:function(){-1!==s.element.className.indexOf("ytv-full")&&(s.element.className=s.element.className.replace("ytv-full",""))}},u(n,i)};"undefined"!=typeof module&&module.exports&&(module.exports=n),"undefined"==typeof ender&&(this.YTV=n),"function"==typeof define&&define.amd&&define("YTV",[],function(){return n}),"undefined"!=typeof jQuery&&jQuery.fn.extend({ytv:function(e){return this.each(function(){new n(this,e)})}})}).call(this,window,document);
-
-//Run, So you want to take this code do you?
-
-jQuery(document).ready(function() {
-    jQuery('#frame').ytv({
-        user: 'alteracorp',
-        playlist:'PL0pU5hg9yniYLpyVsw58lnrL826HNz5Cv',
-        accent: '#F70101',
-        browsePlaylists: false,
-		controls: true,
-		autoplay: false,
-        wmode: 'opaque',
-        chainVideos: true,
-        annotations: false,
-        fullscreen: false
-    });
-});
-</script>
-
-
    </body>
 </html>

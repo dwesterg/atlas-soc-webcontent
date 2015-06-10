@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1432936554698">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1433947702061">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -41,21 +41,27 @@
     <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn"/>
     <file name="develop-icon.png" crc="513143481" ref="develop"/>
     <file name="boot_flow.jpg" crc="3775540936" ref="learn"/>
+    <file name="chalktalk_sm_200.jpg" crc="4219088025" ref="index"/>
+    <file name="lookinside1_sm_200.jpg" crc="131794204" ref="index"/>
+    <file name="lookinside2_sm_200.jpg" crc="386731420" ref="index"/>
+    <file name="lookinside3_sm_200.jpg" crc="3832175463" ref="index"/>
+    <file name="lookinside4_sm_200.jpg" crc="105258712" ref="index"/>
+    <file name="lookinside5_sm_200.jpg" crc="3986610265" ref="index"/>
+    <file name="trees.jpg" crc="429639324" ref="learn"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4222550294"/>
-    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="424007956" ref="index"/>
-    <file name="play.css" crc="275103390" ref="play"/>
-    <file name="learn.css" crc="296723417" ref="learn"/>
-    <file name="try.css" crc="489773389" ref="try"/>
-    <file name="develop.css" crc="4148673926" ref="develop"/>
+    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="360386231" ref="index"/>
+    <file name="play.css" crc="4076474439" ref="play"/>
+    <file name="learn.css" crc="4092156700" ref="learn"/>
+    <file name="try.css" crc="67032448" ref="try"/>
+    <file name="develop.css" crc="3824706606" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
     <file name="de0-nano-soc_user_manual.pdf" crc="238333681" mt="1423791588000"/>
-    <file name="why-do-i-need-a-customizable-arm-based-soc-—-altera.mp4" crc="125734413" mt="1429744213000"/>
     <file name="a-look-inside--soc-fpgas-system-performance-(part-2-of-5).mp4" crc="4171399478" mt="1429744222000"/>
     <file name="a-look-inside--soc-fpgas-reliability-and-flexibility-(part-3-of-5).mp4" crc="4061460043" mt="1429744224000"/>
     <file name="a-look-inside--soc-fpgas-system-cost-and-power-(part-4-of-5).mp4" crc="326448472" mt="1429744228000"/>
@@ -66,6 +72,10 @@
     <file name="off.jpg" crc="239236417" mt="1430928724000"/>
     <file name="blink.jpg" crc="4037406787" mt="1430928697000"/>
     <file name="atlas-soc_user_manual.pdf" crc="302613186" mt="1432753890000"/>
+    <file name="lookinside3.jpg" crc="488921324" mt="1433538440000"/>
+    <file name="lookinside4.jpg" crc="306737070" mt="1433538461000"/>
+    <file name="lookinside5.jpg" crc="3952950628" mt="1433538491000"/>
+    <file name="why_soc_fpga.mp4" crc="125734413" mt="1429744213000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:play:learn:try:develop"/>
@@ -76,10 +86,11 @@
     <file name="webpro.js" crc="220831917" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
+    <file name="pie.js" crc="3827607177" ref="play"/>
   </folder>
-  <file name="index.html" crc="409693276" mt="1432935533805" redirect="true"/>
-  <file name="play.html" crc="4230276161" mt="1432672749597" redirect="true"/>
-  <file name="learn.html" crc="322993695" mt="1432936507887" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1432935580836" redirect="true"/>
-  <file name="develop.html" crc="3900265567" mt="1432936498102" redirect="true"/>
+  <file name="index.html" crc="152116206" mt="1433947583790" redirect="true"/>
+  <file name="play.html" crc="287223621" mt="1433943548780" redirect="true"/>
+  <file name="learn.html" crc="4225058972" mt="1433947551792" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1433939802894" redirect="true"/>
+  <file name="develop.html" crc="3900265567" mt="1433939802894" redirect="true"/>
 </manifest>
