@@ -1,4 +1,4 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1433947702061">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1434641557922">
   <folder name="images">
     <file name="start-here.jpg" crc="195334817" ref="index"/>
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
@@ -14,11 +14,9 @@
     <file name="user_pb_led_table.jpg" crc="38403406" ref="index"/>
     <file name="play_logo.png" crc="3795199510" ref="play"/>
     <file name="hps_accelerometer.jpg" crc="3999977144" ref="play"/>
-    <file name="sfft5.png" crc="3889987125" ref="play"/>
+    <file name="sfft5.png" crc="4185703515" ref="play"/>
     <file name="survey-icon.png" crc="3928421250" ref="develop"/>
     <file name="reset_pb_table.jpg" crc="4119196603" ref="index"/>
-    <file name="led_button-off.png" crc="4293306195" ref="play"/>
-    <file name="led_button-on.png" crc="3838342334" ref="play"/>
     <file name="develop.jpg" crc="22390905" ref="try"/>
     <file name="rocketboards.jpg" crc="412716149" ref="learn"/>
     <file name="learn.jpg" crc="156779375" ref="learn"/>
@@ -34,7 +32,6 @@
     <file name="hps-block-diagram.jpg" crc="503257085" ref="index"/>
     <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index"/>
     <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index"/>
-    <file name="soc_ecosystem.jpg" crc="4146661755" ref="learn"/>
     <file name="de0-nano-soc_blackdiagram_341-01.jpg" crc="3825713749" ref="play"/>
     <file name="cmd line.jpg" crc="520958827" ref="try"/>
     <file name="vcn_viewer.jpg" crc="112657178" ref="try"/>
@@ -48,15 +45,16 @@
     <file name="lookinside4_sm_200.jpg" crc="105258712" ref="index"/>
     <file name="lookinside5_sm_200.jpg" crc="3986610265" ref="index"/>
     <file name="trees.jpg" crc="429639324" ref="learn"/>
+    <file name="ecosystem.jpg" crc="3771668583" ref="learn"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4222550294"/>
     <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="360386231" ref="index"/>
-    <file name="play.css" crc="4076474439" ref="play"/>
-    <file name="learn.css" crc="4092156700" ref="learn"/>
-    <file name="try.css" crc="67032448" ref="try"/>
-    <file name="develop.css" crc="3824706606" ref="develop"/>
+    <file name="play.css" crc="211638890" ref="play"/>
+    <file name="learn.css" crc="259450564" ref="learn"/>
+    <file name="try.css" crc="407179367" ref="try"/>
+    <file name="develop.css" crc="80336878" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -85,12 +83,11 @@
     <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
     <file name="webpro.js" crc="220831917" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="play"/>
     <file name="pie.js" crc="3827607177" ref="play"/>
   </folder>
-  <file name="index.html" crc="152116206" mt="1433947583790" redirect="true"/>
-  <file name="play.html" crc="287223621" mt="1433943548780" redirect="true"/>
-  <file name="learn.html" crc="4225058972" mt="1433947551792" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1433939802894" redirect="true"/>
-  <file name="develop.html" crc="3900265567" mt="1433939802894" redirect="true"/>
+  <file name="index.html" crc="152116206" mt="1434631191925" redirect="true"/>
+  <file name="play.html" crc="4286295723" mt="1434631191925" redirect="true"/>
+  <file name="learn.html" crc="124232943" mt="1434631663827" redirect="true"/>
+  <file name="try.html" crc="159387115" mt="1434631191925" redirect="true"/>
+  <file name="develop.html" crc="3900265567" mt="1434631191925" redirect="true"/>
 </manifest>

@@ -1,7 +1,7 @@
 .version.try /* version checker */
 {
-	color: #000003;
-	background-color: #FED580;
+	color: #000018;
+	background-color: #451067;
 }
 
 .html
@@ -412,8 +412,8 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	line-height: 22px;
 	color: #0071BC;
+	line-height: 22px;
 	position: relative;
 }
 
@@ -783,8 +783,8 @@
 	color: #000000;
 	visibility: inherit;
 	font-size: 20px;
-	text-align: center;
 	line-height: 1;
+	text-align: center;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: normal;
