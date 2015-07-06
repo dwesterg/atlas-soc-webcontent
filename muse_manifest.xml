@@ -1,60 +1,60 @@
-<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1434641557922">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436201100874" domain="192.168.7.1">
   <folder name="images">
-    <file name="start-here.jpg" crc="195334817" ref="index"/>
-    <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index"/>
-    <file name="boardtop.jpg" crc="3911977500" ref="index"/>
-    <file name="board-bottom.jpg" crc="3968825685" ref="index"/>
-    <file name="reset_pushbuttons.jpg" crc="3995012306" ref="index"/>
-    <file name="hps_reset_tree.jpg" crc="3770232850" ref="index"/>
-    <file name="board_leds.jpg" crc="120360783" ref="index"/>
-    <file name="led_table.jpg" crc="172623364" ref="index"/>
-    <file name="user_pushbuttons.jpg" crc="329592019" ref="index"/>
-    <file name="slide_switches.jpg" crc="4107215453" ref="index"/>
-    <file name="user_leds.jpg" crc="4074739427" ref="index"/>
-    <file name="user_pb_led_table.jpg" crc="38403406" ref="index"/>
-    <file name="play_logo.png" crc="3795199510" ref="play"/>
-    <file name="hps_accelerometer.jpg" crc="3999977144" ref="play"/>
-    <file name="sfft5.png" crc="4185703515" ref="play"/>
-    <file name="survey-icon.png" crc="3928421250" ref="develop"/>
-    <file name="reset_pb_table.jpg" crc="4119196603" ref="index"/>
-    <file name="develop.jpg" crc="22390905" ref="try"/>
-    <file name="rocketboards.jpg" crc="412716149" ref="learn"/>
-    <file name="learn.jpg" crc="156779375" ref="learn"/>
-    <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play"/>
-    <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play"/>
-    <file name="fft_cpu_source_fpga.jpg" crc="269045973" ref="play"/>
-    <file name="fft_fpga_source_fpga.jpg" crc="4125855692" ref="play"/>
-    <file name="handoff.jpg" crc="3967898808" ref="learn"/>
-    <file name="soc_bridges.jpg" crc="199273124" ref="learn"/>
-    <file name="register_view.jpg" crc="418281144" ref="learn"/>
-    <file name="other_if.jpg" crc="82722835" ref="learn"/>
-    <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try"/>
-    <file name="hps-block-diagram.jpg" crc="503257085" ref="index"/>
-    <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index"/>
-    <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index"/>
-    <file name="de0-nano-soc_blackdiagram_341-01.jpg" crc="3825713749" ref="play"/>
-    <file name="cmd line.jpg" crc="520958827" ref="try"/>
-    <file name="vcn_viewer.jpg" crc="112657178" ref="try"/>
-    <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn"/>
-    <file name="develop-icon.png" crc="513143481" ref="develop"/>
-    <file name="boot_flow.jpg" crc="3775540936" ref="learn"/>
-    <file name="chalktalk_sm_200.jpg" crc="4219088025" ref="index"/>
-    <file name="lookinside1_sm_200.jpg" crc="131794204" ref="index"/>
-    <file name="lookinside2_sm_200.jpg" crc="386731420" ref="index"/>
-    <file name="lookinside3_sm_200.jpg" crc="3832175463" ref="index"/>
-    <file name="lookinside4_sm_200.jpg" crc="105258712" ref="index"/>
-    <file name="lookinside5_sm_200.jpg" crc="3986610265" ref="index"/>
-    <file name="trees.jpg" crc="429639324" ref="learn"/>
-    <file name="ecosystem.jpg" crc="3771668583" ref="learn"/>
+    <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
+    <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
+    <file name="board-bottom.jpg" crc="3968825685" ref="index" seo="true"/>
+    <file name="reset_pushbuttons.jpg" crc="3995012306" ref="index" seo="true"/>
+    <file name="hps_reset_tree.jpg" crc="3770232850" ref="index" seo="true"/>
+    <file name="board_leds.jpg" crc="120360783" ref="index" seo="true"/>
+    <file name="led_table.jpg" crc="172623364" ref="index" seo="true"/>
+    <file name="user_pushbuttons.jpg" crc="329592019" ref="index" seo="true"/>
+    <file name="slide_switches.jpg" crc="4107215453" ref="index" seo="true"/>
+    <file name="user_leds.jpg" crc="4074739427" ref="index" seo="true"/>
+    <file name="user_pb_led_table.jpg" crc="38403406" ref="index" seo="true"/>
+    <file name="hps_accelerometer.jpg" crc="3999977144" ref="play" seo="true"/>
+    <file name="sfft5.png" crc="4185703515" ref="play" seo="true"/>
+    <file name="reset_pb_table.jpg" crc="4119196603" ref="index" seo="true"/>
+    <file name="develop.jpg" crc="182718674" ref="develop" seo="true"/>
+    <file name="rocketboards.jpg" crc="412716149" ref="learn" seo="true"/>
+    <file name="learn.jpg" crc="373002740" ref="learn" seo="true"/>
+    <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play" seo="true"/>
+    <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play" seo="true"/>
+    <file name="fft_cpu_source_fpga.jpg" crc="269045973" ref="play" seo="true"/>
+    <file name="fft_fpga_source_fpga.jpg" crc="4125855692" ref="play" seo="true"/>
+    <file name="handoff.jpg" crc="3967898808" ref="learn" seo="true"/>
+    <file name="soc_bridges.jpg" crc="199273124" ref="learn" seo="true"/>
+    <file name="register_view.jpg" crc="418281144" ref="learn" seo="true"/>
+    <file name="other_if.jpg" crc="82722835" ref="learn" seo="true"/>
+    <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try" seo="true"/>
+    <file name="hps-block-diagram.jpg" crc="503257085" ref="index" seo="true"/>
+    <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index" seo="true"/>
+    <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index" seo="true"/>
+    <file name="de0-nano-soc_blackdiagram_341-01.jpg" crc="3825713749" ref="play" seo="true"/>
+    <file name="cmd line.jpg" crc="520958827" ref="try" seo="true"/>
+    <file name="vcn_viewer.jpg" crc="112657178" ref="try" seo="true"/>
+    <file name="fpgas-for-dummies_sm.jpg" crc="368118748" ref="learn" seo="true"/>
+    <file name="boot_flow.jpg" crc="3775540936" ref="learn" seo="true"/>
+    <file name="chalktalk_sm_200.jpg" crc="4219088025" ref="index" seo="true"/>
+    <file name="lookinside1_sm_200.jpg" crc="131794204" ref="index" seo="true"/>
+    <file name="lookinside2_sm_200.jpg" crc="386731420" ref="index" seo="true"/>
+    <file name="lookinside3_sm_200.jpg" crc="3832175463" ref="index" seo="true"/>
+    <file name="lookinside4_sm_200.jpg" crc="105258712" ref="index" seo="true"/>
+    <file name="lookinside5_sm_200.jpg" crc="3986610265" ref="index" seo="true"/>
+    <file name="trees.jpg" crc="3843949896" ref="learn" seo="true"/>
+    <file name="ecosystem.jpg" crc="3771668583" ref="learn" seo="true"/>
+    <file name="start.jpg" crc="388588458" seo="true" ref="index"/>
+    <file name="play.jpg" crc="125468285" seo="true" ref="play"/>
+    <file name="try.jpg" crc="4050246330" seo="true" ref="try"/>
+    <file name="survey.jpg" crc="415806336" seo="true" ref="develop"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4222550294"/>
-    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="360386231" ref="index"/>
-    <file name="play.css" crc="211638890" ref="play"/>
-    <file name="learn.css" crc="259450564" ref="learn"/>
-    <file name="try.css" crc="407179367" ref="try"/>
-    <file name="develop.css" crc="80336878" ref="develop"/>
+    <file name="site_global.css" crc="3880543091"/>
+    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="471961397" ref="index"/>
+    <file name="play.css" crc="424152893" ref="play"/>
+    <file name="learn.css" crc="3842478770" ref="learn"/>
+    <file name="try.css" crc="4142090853" ref="try"/>
+    <file name="develop.css" crc="3958077055" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -76,18 +76,18 @@
     <file name="why_soc_fpga.mp4" crc="125734413" mt="1429744213000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:play:learn:try:develop"/>
-    <file name="museutils.js" crc="521960461" ref="index:play:learn:try:develop"/>
-    <file name="jquery.musemenu.js" crc="397543671" ref="index:play:learn:try:develop"/>
-    <file name="jquery.watch.js" crc="56779320" ref="index:play:learn:try:develop"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:play:learn:try:develop"/>
+    <file name="museutils.js" crc="183364071" ref="index:play:learn:try:develop"/>
+    <file name="jquery.musemenu.js" crc="3957776250" ref="index:play:learn:try:develop"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:play:learn:try:develop"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
-    <file name="webpro.js" crc="220831917" ref="learn:index:play:try:develop"/>
-    <file name="musewpdisclosure.js" crc="4110183178" ref="learn:index:play:try:develop"/>
+    <file name="webpro.js" crc="3803554875" ref="learn:index:play:try:develop"/>
+    <file name="musewpdisclosure.js" crc="3993616448" ref="learn:index:play:try:develop"/>
     <file name="pie.js" crc="3827607177" ref="play"/>
   </folder>
-  <file name="index.html" crc="152116206" mt="1434631191925" redirect="true"/>
-  <file name="play.html" crc="4286295723" mt="1434631191925" redirect="true"/>
-  <file name="learn.html" crc="124232943" mt="1434631663827" redirect="true"/>
-  <file name="try.html" crc="159387115" mt="1434631191925" redirect="true"/>
-  <file name="develop.html" crc="3900265567" mt="1434631191925" redirect="true"/>
+  <file name="index.html" crc="502346757" mt="1436198234026" redirect="true" seo="true"/>
+  <file name="play.html" crc="3862828729" mt="1436198773486" redirect="true" seo="true"/>
+  <file name="learn.html" crc="3911069604" mt="1436197331122" redirect="true" seo="true"/>
+  <file name="try.html" crc="489896571" mt="1436199067718" redirect="true" seo="true"/>
+  <file name="develop.html" crc="4248704032" mt="1436201037935" redirect="true" seo="true"/>
 </manifest>
