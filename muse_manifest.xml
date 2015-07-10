@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436201100874" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436566599803" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -15,7 +15,7 @@
     <file name="sfft5.png" crc="4185703515" ref="play" seo="true"/>
     <file name="reset_pb_table.jpg" crc="4119196603" ref="index" seo="true"/>
     <file name="develop.jpg" crc="182718674" ref="develop" seo="true"/>
-    <file name="rocketboards.jpg" crc="412716149" ref="learn" seo="true"/>
+    <file name="rocketboards.jpg" crc="458043349" ref="learn" seo="true"/>
     <file name="learn.jpg" crc="373002740" ref="learn" seo="true"/>
     <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play" seo="true"/>
     <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play" seo="true"/>
@@ -40,7 +40,7 @@
     <file name="lookinside3_sm_200.jpg" crc="3832175463" ref="index" seo="true"/>
     <file name="lookinside4_sm_200.jpg" crc="105258712" ref="index" seo="true"/>
     <file name="lookinside5_sm_200.jpg" crc="3986610265" ref="index" seo="true"/>
-    <file name="trees.jpg" crc="3843949896" ref="learn" seo="true"/>
+    <file name="trees.jpg" crc="271198079" ref="learn" seo="true"/>
     <file name="ecosystem.jpg" crc="3771668583" ref="learn" seo="true"/>
     <file name="start.jpg" crc="388588458" seo="true" ref="index"/>
     <file name="play.jpg" crc="125468285" seo="true" ref="play"/>
@@ -48,13 +48,13 @@
     <file name="survey.jpg" crc="415806336" seo="true" ref="develop"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3880543091"/>
-    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="471961397" ref="index"/>
-    <file name="play.css" crc="424152893" ref="play"/>
-    <file name="learn.css" crc="3842478770" ref="learn"/>
-    <file name="try.css" crc="4142090853" ref="try"/>
-    <file name="develop.css" crc="3958077055" ref="develop"/>
+    <file name="site_global.css" crc="522787632"/>
+    <file name="master_a-master.css" crc="341693689" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="435365420" ref="index"/>
+    <file name="play.css" crc="3973692935" ref="play"/>
+    <file name="learn.css" crc="116167279" ref="learn"/>
+    <file name="try.css" crc="361554064" ref="try"/>
+    <file name="develop.css" crc="424157789" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -85,9 +85,9 @@
     <file name="musewpdisclosure.js" crc="3993616448" ref="learn:index:play:try:develop"/>
     <file name="pie.js" crc="3827607177" ref="play"/>
   </folder>
-  <file name="index.html" crc="502346757" mt="1436198234026" redirect="true" seo="true"/>
-  <file name="play.html" crc="3862828729" mt="1436198773486" redirect="true" seo="true"/>
-  <file name="learn.html" crc="3911069604" mt="1436197331122" redirect="true" seo="true"/>
-  <file name="try.html" crc="489896571" mt="1436199067718" redirect="true" seo="true"/>
-  <file name="develop.html" crc="4248704032" mt="1436201037935" redirect="true" seo="true"/>
+  <file name="index.html" crc="4106358056" mt="1436566204726" redirect="true" seo="true"/>
+  <file name="play.html" crc="3862828729" mt="1436566204726" redirect="true" seo="true"/>
+  <file name="learn.html" crc="306445882" mt="1436566204726" redirect="true" seo="true"/>
+  <file name="try.html" crc="3835158676" mt="1436566204726" redirect="true" seo="true"/>
+  <file name="develop.html" crc="4079784969" mt="1436566204726" redirect="true" seo="true"/>
 </manifest>

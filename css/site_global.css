@@ -220,6 +220,29 @@ a.nontext /* used to override default properties of 'a' tag */
 	padding: 0px;
 }
 
+.Learn-More-Link
+{
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	padding: 0px;
+}
+
+.Indented-Body-Text
+{
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 0px 0px 0px 16px;
+}
+
+.Bold-Indented-Body-Text
+{
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px 0px 0px 16px;
+}
+
 .list0 li:before
 {
 	position: absolute;
