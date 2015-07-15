@@ -1,7 +1,7 @@
 .version.learn /* version checker */
 {
-	color: #0000F6;
-	background-color: #AA7872;
+	color: #0000E7;
+	background-color: #3AEC3B;
 }
 
 .html
@@ -2441,7 +2441,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	top: 10px;
+	top: 9px;
 }
 
 #u8961:hover #u8963-4
@@ -2499,7 +2499,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	top: 9px;
+	top: 10px;
 }
 
 #u8965:hover #u8966-4
@@ -2689,7 +2689,7 @@
 	position: relative;
 }
 
-#u9436
+#u9514
 {
 	z-index: 742;
 	width: 560px;
@@ -2697,7 +2697,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 75px;
+	margin-left: 74px;
 	margin-top: 11px;
 	position: relative;
 }

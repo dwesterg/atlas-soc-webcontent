@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436977309305" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436984642076" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -50,19 +50,17 @@
     <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn"/>
     <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn"/>
     <file name="boot_fpga_first.jpg" crc="222757031" seo="true" ref="learn"/>
-    <file name="trees.jpg" crc="271198079" seo="true" ref="develop"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="59611903"/>
     <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="4269794927" ref="index"/>
     <file name="play.css" crc="4190270430" ref="play"/>
-    <file name="learn.css" crc="4138367090" ref="learn"/>
+    <file name="learn.css" crc="3879398459" ref="learn"/>
     <file name="try.css" crc="4209822049" ref="try"/>
-    <file name="develop.css" crc="3785308254" ref="develop"/>
+    <file name="develop.css" crc="40640493" ref="develop"/>
   </folder>
   <folder name="assets">
-    <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
     <file name="de0-nano-soc_user_manual.pdf" crc="238333681" mt="1423791588000"/>
     <file name="a-look-inside--soc-fpgas-system-performance-(part-2-of-5).mp4" crc="4171399478" mt="1429744222000"/>
@@ -71,13 +69,7 @@
     <file name="a-look-inside--soc-fpgas-embedded-development-tools-(part-5-of-5).mp4" crc="48688703" mt="1429744231000"/>
     <file name="a-look-inside--soc-fpgas-introduction-(part-1-of-5).mp4" crc="3836003049" mt="1429822175000"/>
     <file name="wp-01202-embedded-system-soc-design-considerations.pdf" crc="91058474" mt="1429823452000"/>
-    <file name="on.jpg" crc="2697029" mt="1431009868000"/>
-    <file name="off.jpg" crc="239236417" mt="1430928724000"/>
-    <file name="blink.jpg" crc="4037406787" mt="1430928697000"/>
     <file name="atlas-soc_user_manual.pdf" crc="302613186" mt="1432753890000"/>
-    <file name="lookinside3.jpg" crc="488921324" mt="1433538440000"/>
-    <file name="lookinside4.jpg" crc="306737070" mt="1433538461000"/>
-    <file name="lookinside5.jpg" crc="3952950628" mt="1433538491000"/>
     <file name="why_soc_fpga.mp4" crc="125734413" mt="1429744213000"/>
   </folder>
   <folder name="scripts">
@@ -93,7 +85,7 @@
   </folder>
   <file name="index.html" crc="3873724323" mt="1436970510181" redirect="true" seo="true"/>
   <file name="play.html" crc="3862828729" mt="1436970510181" redirect="true" seo="true"/>
-  <file name="learn.html" crc="3984842027" mt="1436971362494" redirect="true" seo="true"/>
+  <file name="learn.html" crc="301118334" mt="1436983537848" redirect="true" seo="true"/>
   <file name="try.html" crc="4190359235" mt="1436970510181" redirect="true" seo="true"/>
-  <file name="develop.html" crc="3890048252" mt="1436977290084" redirect="true" seo="true"/>
+  <file name="develop.html" crc="4261849088" mt="1436983617226" redirect="true" seo="true"/>
 </manifest>
