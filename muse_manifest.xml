@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436975266829" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436977309305" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -50,6 +50,7 @@
     <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn"/>
     <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn"/>
     <file name="boot_fpga_first.jpg" crc="222757031" seo="true" ref="learn"/>
+    <file name="trees.jpg" crc="271198079" seo="true" ref="develop"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="59611903"/>
@@ -58,7 +59,7 @@
     <file name="play.css" crc="4190270430" ref="play"/>
     <file name="learn.css" crc="4138367090" ref="learn"/>
     <file name="try.css" crc="4209822049" ref="try"/>
-    <file name="develop.css" crc="4093950976" ref="develop"/>
+    <file name="develop.css" crc="3785308254" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="atlas.muse" crc="103196270" mt="1423791439000"/>
@@ -94,5 +95,5 @@
   <file name="play.html" crc="3862828729" mt="1436970510181" redirect="true" seo="true"/>
   <file name="learn.html" crc="3984842027" mt="1436971362494" redirect="true" seo="true"/>
   <file name="try.html" crc="4190359235" mt="1436970510181" redirect="true" seo="true"/>
-  <file name="develop.html" crc="294193315" mt="1436973426259" redirect="true" seo="true"/>
+  <file name="develop.html" crc="3890048252" mt="1436977290084" redirect="true" seo="true"/>
 </manifest>
