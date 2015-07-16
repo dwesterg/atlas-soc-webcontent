@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1436984642076" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437004779042" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -15,7 +15,6 @@
     <file name="sfft5.png" crc="4185703515" ref="play" seo="true"/>
     <file name="reset_pb_table.jpg" crc="4119196603" ref="index" seo="true"/>
     <file name="develop.jpg" crc="182718674" ref="develop" seo="true"/>
-    <file name="rocketboards.jpg" crc="286929994" ref="index" seo="true"/>
     <file name="learn.jpg" crc="373002740" ref="learn" seo="true"/>
     <file name="fft_cpu_source_ramdisk.jpg" crc="11106442" ref="play" seo="true"/>
     <file name="fft_fpga_source_ramdisk.jpg" crc="9133104" ref="play" seo="true"/>
@@ -47,18 +46,20 @@
     <file name="survey.jpg" crc="415806336" seo="true" ref="develop"/>
     <file name="boot-independent.jpg" crc="508033116" seo="true" ref="learn"/>
     <file name="boot-cpu_first.jpg" crc="4128884226" seo="true" ref="learn"/>
-    <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn"/>
-    <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn"/>
+    <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn:index"/>
+    <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn:index"/>
     <file name="boot_fpga_first.jpg" crc="222757031" seo="true" ref="learn"/>
+    <file name="alteraopensource-normal.png" crc="4100489691" ref="develop"/>
+    <file name="alteraopensource-rollover.jpg" crc="346698539" ref="develop"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="59611903"/>
-    <file name="master_a-master.css" crc="496331192" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="4269794927" ref="index"/>
-    <file name="play.css" crc="4190270430" ref="play"/>
-    <file name="learn.css" crc="3879398459" ref="learn"/>
-    <file name="try.css" crc="4209822049" ref="try"/>
-    <file name="develop.css" crc="40640493" ref="develop"/>
+    <file name="master_a-master.css" crc="239755047" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="4051518204" ref="index"/>
+    <file name="play.css" crc="308812948" ref="play"/>
+    <file name="learn.css" crc="262888138" ref="learn"/>
+    <file name="try.css" crc="101576939" ref="try"/>
+    <file name="develop.css" crc="248765606" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -81,11 +82,11 @@
     <file name="webpro.js" crc="3803554875" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="3993616448" ref="learn:index:play:try:develop"/>
     <file name="pie.js" crc="3827607177" ref="play:develop"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn:index"/>
   </folder>
-  <file name="index.html" crc="3873724323" mt="1436970510181" redirect="true" seo="true"/>
-  <file name="play.html" crc="3862828729" mt="1436970510181" redirect="true" seo="true"/>
-  <file name="learn.html" crc="301118334" mt="1436983537848" redirect="true" seo="true"/>
-  <file name="try.html" crc="4190359235" mt="1436970510181" redirect="true" seo="true"/>
-  <file name="develop.html" crc="4261849088" mt="1436983617226" redirect="true" seo="true"/>
+  <file name="index.html" crc="3898521953" mt="1437004230057" redirect="true" seo="true"/>
+  <file name="play.html" crc="4032855905" mt="1437002473371" redirect="true" seo="true"/>
+  <file name="learn.html" crc="86900289" mt="1437003676717" redirect="true" seo="true"/>
+  <file name="try.html" crc="270574951" mt="1437002473371" redirect="true" seo="true"/>
+  <file name="develop.html" crc="408089672" mt="1437002473371" redirect="true" seo="true"/>
 </manifest>
