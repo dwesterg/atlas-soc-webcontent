@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #00000E;
-	background-color: #D3DCA6;
+	color: #0000EC;
+	background-color: #833994;
 }
 
 .html
@@ -355,7 +355,7 @@
 
 #u8503
 {
-	z-index: 286;
+	z-index: 285;
 	width: 171px;
 	background-color: transparent;
 	position: relative;
@@ -364,7 +364,7 @@
 
 #u2443-11
 {
-	z-index: 275;
+	z-index: 274;
 	width: 790px;
 	min-height: 76px;
 	background-color: transparent;
@@ -1183,8 +1183,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1.2;
 	font-size: 18px;
+	line-height: 1.2;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;
@@ -1420,9 +1420,9 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1;
 	font-size: 20px;
 	text-align: center;
+	line-height: 1;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: normal;
@@ -1444,20 +1444,20 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 172px;
+	padding-bottom: 194px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
 }
 
-#pu9498-20
+#pu9498-8
 {
 	width: 0.01px;
 	margin-right: -10000px;
 	margin-left: 20px;
 }
 
-#u9498-20
+#u9498-8
 {
 	z-index: 216;
 	width: 752px;
@@ -1467,20 +1467,14 @@
 	margin-right: -10000px;
 }
 
-#u9498-18
+#u9498-6
 {
 	padding-left: 16px;
 }
 
-#u9498-17
-{
-	color: #000000;
-	font-weight: bold;
-}
-
 #u9501
 {
-	z-index: 236;
+	z-index: 224;
 	width: 250px;
 	height: 49px;
 	position: relative;
@@ -1519,14 +1513,32 @@
 	padding-top: 3px;
 }
 
+#u9553-11
+{
+	z-index: 225;
+	width: 887px;
+	background-color: transparent;
+	line-height: 19px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 118px;
+	left: 20px;
+}
+
+#u9553-8
+{
+	color: #000000;
+	font-weight: bold;
+}
+
 #u9477
 {
-	z-index: 237;
+	z-index: 236;
 	width: 919px;
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 267px;
+	padding-bottom: 255px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1534,7 +1546,7 @@
 
 #u9499-15
 {
-	z-index: 238;
+	z-index: 237;
 	width: 900px;
 	background-color: transparent;
 	line-height: 19px;
@@ -1550,7 +1562,7 @@
 
 #u9500
 {
-	z-index: 253;
+	z-index: 252;
 	width: 250px;
 	height: 49px;
 	position: relative;
@@ -1573,12 +1585,11 @@
 
 #u9481
 {
-	z-index: 254;
+	z-index: 253;
 	width: 919px;
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 12px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1586,7 +1597,7 @@
 
 #u9518-13
 {
-	z-index: 255;
+	z-index: 254;
 	width: 374px;
 	min-height: 217px;
 	background-color: transparent;
@@ -1599,7 +1610,7 @@
 
 #u9525
 {
-	z-index: 268;
+	z-index: 267;
 	width: 480px;
 	min-height: 393px;
 	border-style: none;
@@ -1608,7 +1619,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 14px;
-	left: 421px;
+	left: 411px;
 }
 
 .TabbedPanelsTab,.AccordionPanelTab /* tabset */
@@ -1625,7 +1636,7 @@
 
 #u9116-4
 {
-	z-index: 269;
+	z-index: 268;
 	width: 299px;
 	min-height: 70px;
 	background-color: transparent;
@@ -1638,7 +1649,7 @@
 
 #u9117
 {
-	z-index: 273;
+	z-index: 272;
 	width: 150px;
 	background-color: transparent;
 	position: relative;

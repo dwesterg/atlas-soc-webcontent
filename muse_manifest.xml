@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437004779042" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437082051853" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -53,13 +53,13 @@
     <file name="alteraopensource-rollover.jpg" crc="346698539" ref="develop"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="59611903"/>
+    <file name="site_global.css" crc="516872789"/>
     <file name="master_a-master.css" crc="239755047" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="4051518204" ref="index"/>
     <file name="play.css" crc="308812948" ref="play"/>
     <file name="learn.css" crc="262888138" ref="learn"/>
     <file name="try.css" crc="101576939" ref="try"/>
-    <file name="develop.css" crc="248765606" ref="develop"/>
+    <file name="develop.css" crc="3968022932" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -88,5 +88,5 @@
   <file name="play.html" crc="4032855905" mt="1437002473371" redirect="true" seo="true"/>
   <file name="learn.html" crc="86900289" mt="1437003676717" redirect="true" seo="true"/>
   <file name="try.html" crc="270574951" mt="1437002473371" redirect="true" seo="true"/>
-  <file name="develop.html" crc="408089672" mt="1437002473371" redirect="true" seo="true"/>
+  <file name="develop.html" crc="148847551" mt="1437055209857" redirect="true" seo="true"/>
 </manifest>
