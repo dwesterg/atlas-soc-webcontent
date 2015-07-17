@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #0000EC;
-	background-color: #833994;
+	color: #0000F2;
+	background-color: #997782;
 }
 
 .html
@@ -441,7 +441,7 @@
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
 	position: relative;
-	padding: 8px 3px 8px 18px;
+	padding: 8px 3px 10px 18px;
 }
 
 #u6185-5
@@ -518,7 +518,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	top: 11px;
+	top: 10px;
 }
 
 #u6188:hover #u6191-4
@@ -586,7 +586,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	top: 10px;
+	top: 11px;
 }
 
 #u6196:hover #u6199-4
@@ -627,7 +627,7 @@
 	background-color: #FFFFFF;
 	margin-right: -10000px;
 	position: relative;
-	padding: 7px 28px 172px 21px;
+	padding: 7px 28px 143px 21px;
 	border-width: 0px 1px 1px;
 }
 
@@ -799,7 +799,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 33px;
+	padding-bottom: 4px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1198,7 +1198,7 @@
 	border-style: solid;
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
-	padding-bottom: 16px;
+	padding-bottom: 18px;
 	position: relative;
 }
 
@@ -1211,6 +1211,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
+	margin-top: 10px;
 	left: 18px;
 }
 
@@ -1444,7 +1445,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 194px;
+	padding-bottom: 217px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1538,7 +1539,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 255px;
+	padding-bottom: 278px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1590,6 +1591,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
+	padding-bottom: 6px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1598,7 +1600,7 @@
 #u9518-13
 {
 	z-index: 254;
-	width: 374px;
+	width: 322px;
 	min-height: 217px;
 	background-color: transparent;
 	line-height: 19px;
@@ -1608,18 +1610,17 @@
 	left: 21px;
 }
 
-#u9525
+#u9627
 {
 	z-index: 267;
-	width: 480px;
-	min-height: 393px;
+	width: 576px;
+	min-height: 424px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 14px;
-	left: 411px;
+	left: 343px;
 }
 
 .TabbedPanelsTab,.AccordionPanelTab /* tabset */
@@ -1640,8 +1641,8 @@
 	width: 299px;
 	min-height: 70px;
 	background-color: transparent;
-	text-align: right;
 	line-height: 19px;
+	text-align: right;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 10px;

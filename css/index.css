@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000F1;
-	background-color: #7D42FC;
+	color: #0000EE;
+	background-color: #264343;
 }
 
 .html
@@ -1114,7 +1114,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 96px;
-	left: 502px;
+	left: 547px;
 	background: transparent url("../images/rocketboards-normal.png") no-repeat left top;
 	background-size: contain;
 }
@@ -1187,8 +1187,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1.2;
 	font-size: 18px;
+	line-height: 1.2;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;
