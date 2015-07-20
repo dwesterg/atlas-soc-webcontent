@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #0000F3;
-	background-color: #C21F92;
+	color: #0000F8;
+	background-color: #CEB09C;
 }
 
 .html
@@ -1198,6 +1198,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	padding-bottom: 1px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 10px;
@@ -1434,7 +1435,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 230px;
+	padding-bottom: 211px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1488,8 +1489,8 @@
 	height: 49px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 145px;
-	left: 344px;
+	margin-top: 164px;
+	left: 19px;
 	background: transparent url("../images/rocketboards-normal.png") no-repeat left top;
 	background-size: contain;
 }
@@ -1499,7 +1500,7 @@
 	width: 250px;
 	height: 49px;
 	min-height: 0px;
-	margin: 145px -10000px 0px 0px;
+	margin: 164px -10000px 0px 0px;
 	background: transparent url("../images/rocketboards-rollover.jpg") no-repeat left top;
 	background-size: contain;
 }
@@ -1511,7 +1512,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 272px;
+	padding-bottom: 268px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1540,8 +1541,8 @@
 	height: 49px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 69px;
-	left: 104px;
+	margin-top: 107px;
+	left: 19px;
 	background: transparent url("../images/rocketboards-normal.png") no-repeat left top;
 	background-size: contain;
 }
@@ -1551,7 +1552,7 @@
 	width: 250px;
 	height: 49px;
 	min-height: 0px;
-	margin: 69px -10000px 0px 0px;
+	margin: 107px -10000px 0px 0px;
 	background: transparent url("../images/rocketboards-rollover.jpg") no-repeat left top;
 	background-size: contain;
 }
