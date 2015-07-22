@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #000014;
-	background-color: #805910;
+	color: #000012;
+	background-color: #4395BF;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 599.8px;
+	min-height: 600px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: #FFFFFF;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -478,7 +477,7 @@
 	position: relative;
 	margin-right: -10000px;
 	left: 620px;
-	padding: 85px 153px 182.3px 14px;
+	padding: 85px 153px 85px 14px;
 }
 
 #buttonu8263
@@ -646,9 +645,7 @@
 	background-color: #CACACA;
 	border-radius: 10px;
 	padding-bottom: 9px;
-	margin-left: 656px;
-	top: -135px;
-	margin-bottom: -50px;
+	margin-top: 48px;
 	position: relative;
 }
 
@@ -657,7 +654,7 @@
 	background-color: #545454;
 	width: 111px;
 	min-height: 0px;
-	margin: 0px 0px -50px 656px;
+	margin: 48px 0px 0px;
 }
 
 #buttonu8431.ButtonSelected
@@ -665,7 +662,7 @@
 	background-color: #CACACA;
 	width: 111px;
 	min-height: 0px;
-	margin: 0px 0px -50px 656px;
+	margin: 48px 0px 0px;
 }
 
 #u8432
@@ -1165,13 +1162,6 @@
 	font-weight: bold;
 }
 
-#ppu9649
-{
-	width: 0.01px;
-	margin-right: -10000px;
-	margin-left: 396px;
-}
-
 #u9649
 {
 	z-index: 401;
@@ -1180,7 +1170,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 7px;
-	left: 267px;
+	left: 663px;
 }
 
 .ie #u9649
@@ -1200,15 +1190,16 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: transparent;
-	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
+	left: 396px;
 }
 
 #pbuttonu8022
 {
 	width: 0.01px;
-	margin-top: 17px;
+	margin-left: 397px;
+	margin-top: -81px;
 }
 
 #buttonu8022
@@ -2250,7 +2241,7 @@
 	left: 56px;
 }
 
-#pu4340,#pu3200-14,#pu9649,#pu8311-4,#pu8302-4,#pu8309-4,#pu8310-4,#pu8324-4,#pu8329-4,#pu8334-4,#pu8323-4
+#pu4340,#pu3200-14,#pu8311-4,#pu8302-4,#pu8309-4,#pu8310-4,#pu8324-4,#pu8329-4,#pu8334-4,#pu8323-4
 {
 	width: 0.01px;
 }
@@ -2377,7 +2368,7 @@
 	cursor: pointer;
 }
 
-#u9847
+#u9849
 {
 	z-index: 405;
 	width: 200px;
@@ -2385,8 +2376,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 400px;
-	margin-top: 137px;
+	margin-left: 337px;
+	margin-top: 275px;
 	position: relative;
 }
 

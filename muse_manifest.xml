@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437603276695" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437603853411" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -57,7 +57,7 @@
     <file name="site_global.css" crc="59611903"/>
     <file name="master_a-master.css" crc="239755047" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="4212447514" ref="index"/>
-    <file name="play.css" crc="343955728" ref="play"/>
+    <file name="play.css" crc="306419135" ref="play"/>
     <file name="learn.css" crc="4061601989" ref="learn"/>
     <file name="try.css" crc="80090168" ref="try"/>
     <file name="develop.css" crc="4056229425" ref="develop"/>
@@ -86,7 +86,7 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
   <file name="index.html" crc="19427393" mt="1437601446161" redirect="true" seo="true"/>
-  <file name="play.html" crc="4183044621" mt="1437603221169" redirect="true" seo="true"/>
+  <file name="play.html" crc="3777425467" mt="1437603845864" redirect="true" seo="true"/>
   <file name="learn.html" crc="4272340057" mt="1437601458242" redirect="true" seo="true"/>
   <file name="try.html" crc="444398422" mt="1437595275118" redirect="true" seo="true"/>
   <file name="develop.html" crc="4071454320" mt="1437577638951" redirect="true" seo="true"/>
