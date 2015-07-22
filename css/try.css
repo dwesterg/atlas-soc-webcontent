@@ -1,7 +1,7 @@
 .version.try /* version checker */
 {
-	color: #0000EF;
-	background-color: #C9A520;
+	color: #000004;
+	background-color: #C61438;
 }
 
 .html
@@ -411,8 +411,8 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #0071BC;
 	line-height: 22px;
+	color: #0071BC;
 	position: relative;
 }
 

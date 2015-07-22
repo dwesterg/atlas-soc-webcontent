@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #00000F;
-	background-color: #366B5D;
+	color: #000007;
+	background-color: #9E484E;
 }
 
 .html
@@ -36,18 +36,13 @@
 	margin-right: -10000px;
 }
 
-#pmenuu138
-{
-	width: 0.01px;
-	margin-right: -10000px;
-	margin-top: 39px;
-	margin-left: 514px;
-}
-
 #menuu138
 {
 	z-index: 2;
 	width: 446px;
+	margin-right: -10000px;
+	margin-top: 39px;
+	left: 514px;
 }
 
 #u146
@@ -351,23 +346,10 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u9756
-{
-	z-index: 405;
-	width: 67px;
-	min-height: 50px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	margin-left: 337px;
-	margin-top: 14px;
-	position: relative;
-}
-
 #pu8521
 {
 	width: 0.01px;
-	margin-top: 13px;
+	margin-top: 38px;
 }
 
 #u8521
@@ -804,7 +786,7 @@
 	border-style: solid;
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
-	padding-bottom: 17px;
+	padding-bottom: 2px;
 	position: relative;
 }
 
@@ -1022,7 +1004,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 226px;
+	margin-top: 249px;
 	left: 18px;
 }
 
@@ -1739,9 +1721,9 @@
 	border-color: #000000;
 	background-color: #000000;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1758,9 +1740,9 @@
 	border-color: #000000;
 	background-color: #000000;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1778,9 +1760,9 @@
 	border-color: #000000;
 	background-color: #000000;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -2097,9 +2079,9 @@
 	border-color: #000000;
 	background-color: #000000;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -2116,9 +2098,9 @@
 	border-color: #000000;
 	background-color: #000000;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -2136,9 +2118,9 @@
 	border-color: #000000;
 	background-color: #000000;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
