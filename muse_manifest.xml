@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437575365098" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437584680535" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -57,9 +57,9 @@
     <file name="site_global.css" crc="516872789"/>
     <file name="master_a-master.css" crc="239755047" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="4212447514" ref="index"/>
-    <file name="play.css" crc="395191962" ref="play"/>
-    <file name="learn.css" crc="3866067805" ref="learn"/>
-    <file name="try.css" crc="92714029" ref="try"/>
+    <file name="play.css" crc="255224669" ref="play"/>
+    <file name="learn.css" crc="357556162" ref="learn"/>
+    <file name="try.css" crc="4022969632" ref="try"/>
     <file name="develop.css" crc="4056229425" ref="develop"/>
   </folder>
   <folder name="assets">
@@ -85,9 +85,9 @@
     <file name="pie.js" crc="3827607177" ref="play:develop"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
-  <file name="index.html" crc="19427393" mt="1437507767190" redirect="true" seo="true"/>
-  <file name="play.html" crc="322887882" mt="1437575352370" redirect="true" seo="true"/>
-  <file name="learn.html" crc="4043584105" mt="1437510623194" redirect="true" seo="true"/>
-  <file name="try.html" crc="4260571073" mt="1437434263336" redirect="true" seo="true"/>
-  <file name="develop.html" crc="4071454320" mt="1437510124946" redirect="true" seo="true"/>
+  <file name="index.html" crc="19427393" mt="1437581246166" redirect="true" seo="true"/>
+  <file name="play.html" crc="151085226" mt="1437584660527" redirect="true" seo="true"/>
+  <file name="learn.html" crc="3893237013" mt="1437582346795" redirect="true" seo="true"/>
+  <file name="try.html" crc="3772657079" mt="1437584283463" redirect="true" seo="true"/>
+  <file name="develop.html" crc="4071454320" mt="1437577638951" redirect="true" seo="true"/>
 </manifest>
