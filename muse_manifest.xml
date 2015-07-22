@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437574828275" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437575365098" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -86,7 +86,7 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
   <file name="index.html" crc="19427393" mt="1437507767190" redirect="true" seo="true"/>
-  <file name="play.html" crc="130173778" mt="1437574803025" redirect="true" seo="true"/>
+  <file name="play.html" crc="322887882" mt="1437575352370" redirect="true" seo="true"/>
   <file name="learn.html" crc="4043584105" mt="1437510623194" redirect="true" seo="true"/>
   <file name="try.html" crc="4260571073" mt="1437434263336" redirect="true" seo="true"/>
   <file name="develop.html" crc="4071454320" mt="1437510124946" redirect="true" seo="true"/>
