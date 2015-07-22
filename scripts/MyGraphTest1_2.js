@@ -3,8 +3,23 @@ var samples=[];
 
 function draw() {
         var canvas = document.getElementById("canvas");
-        if (null==canvas || !canvas.getContext) return;
+        //if (null==canvas || !canvas.getContext) return;
+        if(canvas == null) 
+        {
+          canvas = document.createElement('canvas');
+          canvas.id     = "canvas";
+          canvas.width  = 522;
+          canvas.height = 325;
+          canvas.style.zIndex   = 8;
+          canvas.style.position = "absolute";
+          //canvas.style.border   = "1px solid";
+          div = document.getElementById("u8075"); 
+          div.appendChild(canvas)
+        }
+
+
         var fft_data = document.getElementById("fft_data");
+
 
         var MarginLeft = 0.05*canvas.width;
         var MarginRight = 0.05*canvas.width;
@@ -26,15 +41,31 @@ function draw() {
         // fill samples
         samples = fft_data.innerHTML.split(",");
         for(var i=0; i<samples.length; i++) { samples[i] = parseInt(samples[i], 10); } 
-        samples_size = samples.length - 1;
+
+        var cpu_time  = samples[samples.length-2];
+        var fpga_time = samples[samples.length-1];
+        samples.splice(samples.length-2,2);
+        samples_size = samples.length;
+        if(samples_size > 256)
+        {
+          document.getElementById("u8305-4").innerHTML = cpu_time;
+          document.getElementById("u8306-4").innerHTML = fpga_time;
+          document.getElementById("u8307-4").innerHTML = cpu_time - fpga_time;
+        }
+        else
+        {
+          document.getElementById("u8302-4").innerHTML = cpu_time;
+          document.getElementById("u8303-4").innerHTML = fpga_time;
+          document.getElementById("u8304-4").innerHTML = cpu_time - fpga_time;
+        }
 
 
         var SamplesToPlot={};
         SamplesToPlot.content = samples;
         //var max_of_array = Math.max.apply(Math, array);
-        SamplesToPlot.maxvalue = Math.max.apply(Math, samples);
-        SamplesToPlot.minvalue = Math.min.apply(Math, samples);
-        //SamplesToPlot.maxvalue = 9;
+        SamplesToPlot.maxvalue = Math.max.apply(Math, samples.slice(1));
+        SamplesToPlot.minvalue = Math.min.apply(Math, samples.slice(1));
+        //SamplesToPlot.maxvalue = 130000;
         //SamplesToPlot.minvalue = 0;
         //SamplesToPlot.range = SamplesToPlot.maxvalue - SamplesToPlot.minvalue;
 
@@ -84,11 +115,11 @@ function funGraph (ctx,axes,SamplesToPlot,color,thick) {
         ctx.fillText(String(samples_size), 20+200,y0+axes.yHeight+40);
         //ctx.fillText("X-axis = SAMPLE#", axes.x0+axes.xWidth+5,y0);	
         ctx.fillText("Sample Maximum Value = ", 20,y0+axes.yHeight+60);
-        //ctx.fillText(String(SamplesToPlot.maxvalue), 20+200,y0+axes.yHeight+60);	
-        ctx.fillText(String(Math.max.apply(Math, samples)), 20+200,y0+axes.yHeight+60);	
+        ctx.fillText(String(SamplesToPlot.maxvalue), 20+200,y0+axes.yHeight+60);	
+        //ctx.fillText(String(Math.max.apply(Math, samples)), 20+200,y0+axes.yHeight+60);	
         ctx.fillText("Sample Minimum Value = ", 20,y0+axes.yHeight+80);	
-        //ctx.fillText(String(SamplesToPlot.minvalue), 20+200,y0+axes.yHeight+80);	
-        ctx.fillText(String(Math.min.apply(Math, samples)), 20+200,y0+axes.yHeight+80);	
+        ctx.fillText(String(SamplesToPlot.minvalue), 20+200,y0+axes.yHeight+80);	
+        //ctx.fillText(String(Math.min.apply(Math, samples)), 20+200,y0+axes.yHeight+80);	
 
 }
 
