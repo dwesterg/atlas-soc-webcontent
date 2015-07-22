@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437418358244" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437574828275" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -46,20 +46,21 @@
     <file name="survey.jpg" crc="415806336" seo="true" ref="develop"/>
     <file name="boot-independent.jpg" crc="508033116" seo="true" ref="learn"/>
     <file name="boot-cpu_first.jpg" crc="4128884226" seo="true" ref="learn"/>
-    <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn:index"/>
-    <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn:index"/>
+    <file name="rocketboards-normal.png" crc="3774600351" ref="develop:learn"/>
+    <file name="rocketboards-rollover.jpg" crc="4028723301" ref="develop:learn"/>
     <file name="boot_fpga_first.jpg" crc="222757031" seo="true" ref="learn"/>
     <file name="alteraopensource-normal.png" crc="4100489691" ref="develop"/>
     <file name="alteraopensource-rollover.jpg" crc="346698539" ref="develop"/>
+    <file name="pdf-icon.jpg" crc="185099995" seo="true" ref="index"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="59611903"/>
+    <file name="site_global.css" crc="516872789"/>
     <file name="master_a-master.css" crc="239755047" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="3995484995" ref="index"/>
-    <file name="play.css" crc="3783960836" ref="play"/>
-    <file name="learn.css" crc="4279959301" ref="learn"/>
-    <file name="try.css" crc="4046580648" ref="try"/>
-    <file name="develop.css" crc="4174295196" ref="develop"/>
+    <file name="index.css" crc="4212447514" ref="index"/>
+    <file name="play.css" crc="395191962" ref="play"/>
+    <file name="learn.css" crc="3866067805" ref="learn"/>
+    <file name="try.css" crc="92714029" ref="try"/>
+    <file name="develop.css" crc="4056229425" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -82,11 +83,11 @@
     <file name="webpro.js" crc="3803554875" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="3993616448" ref="learn:index:play:try:develop"/>
     <file name="pie.js" crc="3827607177" ref="play:develop"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
-  <file name="index.html" crc="478311266" mt="1437403757725" redirect="true" seo="true"/>
-  <file name="play.html" crc="437651411" mt="1437417968216" redirect="true" seo="true"/>
-  <file name="learn.html" crc="3879750957" mt="1437407562950" redirect="true" seo="true"/>
-  <file name="try.html" crc="453042446" mt="1437407744090" redirect="true" seo="true"/>
-  <file name="develop.html" crc="408775731" mt="1437408897065" redirect="true" seo="true"/>
+  <file name="index.html" crc="19427393" mt="1437507767190" redirect="true" seo="true"/>
+  <file name="play.html" crc="130173778" mt="1437574803025" redirect="true" seo="true"/>
+  <file name="learn.html" crc="4043584105" mt="1437510623194" redirect="true" seo="true"/>
+  <file name="try.html" crc="4260571073" mt="1437434263336" redirect="true" seo="true"/>
+  <file name="develop.html" crc="4071454320" mt="1437510124946" redirect="true" seo="true"/>
 </manifest>
