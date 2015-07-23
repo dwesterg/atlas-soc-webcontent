@@ -94,6 +94,14 @@ function draw() {
           document.getElementById("u8308-4").innerHTML = cpu_time;
           document.getElementById("u8309-4").innerHTML = fpga_time;
           document.getElementById("u8310-4").innerHTML = cpu_time - fpga_time;
+
+          // Data Source From FPGA
+          document.getElementById("u8331-4").innerHTML = cpu_time;
+          document.getElementById("u8334-4").innerHTML = fpga_time;
+          document.getElementById("u8323-4").innerHTML = cpu_time - fpga_time;
+          ctx.fillStyle = "red";
+          ctx.font = "bold 18px sans-serif";
+          ctx.fillText("1M FFT Not Displayed Due to Size", canvas.width/2 - 140, canvas.height/2);
           return;
         }
         else if(samples_size < 4095 && samples_size >= 0)
@@ -101,12 +109,22 @@ function draw() {
           document.getElementById("u8302-4").innerHTML = cpu_time;
           document.getElementById("u8303-4").innerHTML = fpga_time;
           document.getElementById("u8304-4").innerHTML = cpu_time - fpga_time;
+
+          // Data Source From FPGA
+          document.getElementById("u8329-4").innerHTML = cpu_time;
+          document.getElementById("u8327-4").innerHTML = fpga_time;
+          document.getElementById("u8332-4").innerHTML = cpu_time - fpga_time;
         }
         else if(samples_size < 1024*1024-1)
         {
           document.getElementById("u8305-4").innerHTML = cpu_time;
           document.getElementById("u8306-4").innerHTML = fpga_time;
           document.getElementById("u8307-4").innerHTML = cpu_time - fpga_time;
+
+          // Data Source From FPGA
+          document.getElementById("u8325-4").innerHTML = cpu_time;
+          document.getElementById("u8326-4").innerHTML = fpga_time;
+          document.getElementById("u8330-4").innerHTML = cpu_time - fpga_time;
         }
 
         var SamplesToPlot={};
@@ -194,4 +212,6 @@ function showAxes(ctx,axes) {
         // And fill area under curve
         ctx.fillText("Y-axis = Frequency Amplitude", w/2 - 100,20);
         ctx.fillText("X-axis = Sample #", x0,axes.y0+axes.yHeight+20);
+
+
 }
