@@ -1,6 +1,48 @@
 var samples_size;
 var samples=[];
 
+//document.getElementById("buttonu8263").on("click", function(){
+//                  document.getElementById("led_status").load("cgi-bin/ledoff.sh");
+//});
+// 
+//document.getElementById("buttonu8260").on("click", function(){
+//                  document.getElementById("led_status").load("cgi-bin/ledon.sh");
+//});
+// 
+//document.getElementById("buttonu8431").on("click", function(){
+//                  document.getElementById("led_status").load("cgi-bin/ledblink.sh");
+//});
+// 
+//document.getElementById("buttonu8266").on("click", function(){
+//                  document.getElementById("led_status").load("cgi-bin/povstart.sh");
+//});
+// 
+//document.getElementById("buttonu8269").on("click", function(){
+//                  document.getElementById("led_status").load("cgi-bin/povstop.sh");
+//});
+// 
+//document.getElementById("buttonu8022").on("click", function(){
+//     document.getElementById('fft_data').bind("DOMSubtreeModified",function(){
+//          draw();
+//     });
+//     document.getElementById("fft_data").load("cgi-bin/fft_sine.sh");
+//});
+// 
+//document.getElementById("buttonu8272").on("click", function(){
+//     document.getElementById('fft_data').bind("DOMSubtreeModified",function(){
+//          draw();
+//     });
+//     document.getElementById("fft_data").load("cgi-bin/fft_square.sh");
+//});
+// 
+//document.getElementById("buttonu8275").on("click", function(){
+//     document.getElementById('fft_data').bind("DOMSubtreeModified",function(){
+//          draw();
+//     });
+//     document.getElementById("fft_data").load("cgi-bin/fft_triangle.sh");
+//});
+
+
 function draw() {
         var canvas = document.getElementById("canvas");
         //if (null==canvas || !canvas.getContext) return;
@@ -9,11 +51,11 @@ function draw() {
           canvas = document.createElement('canvas');
           canvas.id     = "canvas";
           canvas.width  = 522;
-          canvas.height = 325;
+          canvas.height = 340;
           canvas.style.zIndex   = 8;
           canvas.style.position = "absolute";
           //canvas.style.border   = "1px solid";
-          div = document.getElementById("u8075"); 
+          div = document.getElementById("u9762"); 
           div.appendChild(canvas)
         }
 
@@ -46,19 +88,26 @@ function draw() {
         var fpga_time = samples[samples.length-1];
         samples.splice(samples.length-2,2);
         samples_size = samples.length;
-        if(samples_size > 256)
+
+        if(samples_size < 255)
         {
-          document.getElementById("u8305-4").innerHTML = cpu_time;
-          document.getElementById("u8306-4").innerHTML = fpga_time;
-          document.getElementById("u8307-4").innerHTML = cpu_time - fpga_time;
+          document.getElementById("u8308-4").innerHTML = cpu_time;
+          document.getElementById("u8309-4").innerHTML = fpga_time;
+          document.getElementById("u8310-4").innerHTML = cpu_time - fpga_time;
+          return;
         }
-        else
+        else if(samples_size < 4095 && samples_size >= 0)
         {
           document.getElementById("u8302-4").innerHTML = cpu_time;
           document.getElementById("u8303-4").innerHTML = fpga_time;
           document.getElementById("u8304-4").innerHTML = cpu_time - fpga_time;
         }
-
+        else if(samples_size < 1024*1024-1)
+        {
+          document.getElementById("u8305-4").innerHTML = cpu_time;
+          document.getElementById("u8306-4").innerHTML = fpga_time;
+          document.getElementById("u8307-4").innerHTML = cpu_time - fpga_time;
+        }
 
         var SamplesToPlot={};
         SamplesToPlot.content = samples;
