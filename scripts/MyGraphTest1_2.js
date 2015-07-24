@@ -86,7 +86,9 @@ function draw() {
 
         var cpu_time  = samples[samples.length-2];
         var fpga_time = samples[samples.length-1];
-        samples.splice(samples.length-2,2);
+        var cpu_time2  = samples[samples.length-4];
+        var fpga_time2 = samples[samples.length-3];
+        samples.splice(samples.length-4,4);
         samples_size = samples.length;
 
         if(samples_size < 255)
@@ -96,9 +98,9 @@ function draw() {
           document.getElementById("u8310-4").innerHTML = cpu_time - fpga_time;
 
           // Data Source From FPGA
-          document.getElementById("u8331-4").innerHTML = cpu_time;
-          document.getElementById("u8334-4").innerHTML = fpga_time;
-          document.getElementById("u8323-4").innerHTML = cpu_time - fpga_time;
+          document.getElementById("u8331-4").innerHTML = cpu_time2;
+          document.getElementById("u8334-4").innerHTML = fpga_time2;
+          document.getElementById("u8323-4").innerHTML = cpu_time2 - fpga_time2;
           ctx.fillStyle = "red";
           ctx.font = "bold 18px sans-serif";
           ctx.fillText("1M FFT Not Displayed Due to Size", canvas.width/2 - 140, canvas.height/2);
@@ -111,9 +113,9 @@ function draw() {
           document.getElementById("u8304-4").innerHTML = cpu_time - fpga_time;
 
           // Data Source From FPGA
-          document.getElementById("u8329-4").innerHTML = cpu_time;
-          document.getElementById("u8327-4").innerHTML = fpga_time;
-          document.getElementById("u8332-4").innerHTML = cpu_time - fpga_time;
+          document.getElementById("u8329-4").innerHTML = cpu_time2;
+          document.getElementById("u8327-4").innerHTML = fpga_time2;
+          document.getElementById("u8332-4").innerHTML = cpu_time2 - fpga_time2;
         }
         else if(samples_size < 1024*1024-1)
         {
@@ -122,9 +124,9 @@ function draw() {
           document.getElementById("u8307-4").innerHTML = cpu_time - fpga_time;
 
           // Data Source From FPGA
-          document.getElementById("u8325-4").innerHTML = cpu_time;
-          document.getElementById("u8326-4").innerHTML = fpga_time;
-          document.getElementById("u8330-4").innerHTML = cpu_time - fpga_time;
+          document.getElementById("u8325-4").innerHTML = cpu_time2;
+          document.getElementById("u8326-4").innerHTML = fpga_time2;
+          document.getElementById("u8330-4").innerHTML = cpu_time2 - fpga_time2;
         }
 
         var SamplesToPlot={};

@@ -25,20 +25,39 @@ if [ $size == 256x32x128 ] ; then
 fi
 #rerun demo
 pushd /mnt/ram/fft  
-  ./c16_${num} --input=input_waveforms/ne10cpx_short_triangle${size}.bin --output=output_waveforms/c16_${num}_triangle.bin > /home/root/triangle.log
-  cat output_waveforms/c16_${num}_triangle.bin | ./ne10cpx_short_to_text > output_waveforms/c16_${num}_triangle.txt
-  rm output_waveforms/c16_${num}_triangle.bin 
+  ./neon32_${num} --input=input_waveforms/ne10cpx_long_triangle${size}.bin --output=output_waveforms/neon32_${num}_triangle.bin > /home/root/triangle.log
+  cat output_waveforms/neon32_${num}_triangle.bin | ./ne10cpx_long_to_text > output_waveforms/neon32_${num}_triangle.txt
+  rm output_waveforms/neon32_${num}_triangle.bin 
 
   ./fftdma_${num} --input=input_waveforms/ne10cpx_short_triangle${size}.bin --output=output_waveforms/fftdma_${num}_triangle.bin >> /home/root/triangle.log
-  cat output_waveforms/fftdma_${num}_triangle.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_triangle.txt
+  #cat output_waveforms/fftdma_${num}_triangle.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_triangle.txt
   rm output_waveforms/fftdma_${num}_triangle.bin 
+
+  if [ $size != 1M ] ; then
+      echo "Computation (us): 0" > /home/root/triangle_fpga.log
+      echo "Computation (us): 0" >> /home/root/triangle_fpga.log
+  else
+    ./stream_neon32_256x32x128 --input=input_waveforms/ne10cpx_long_triangle${size}.bin --output=output_waveforms/stream_neon32_${num}_triangle.bin > /home/root/triangle_fpga.log
+    rm output_waveforms/stream_neon32_${num}_triangle.bin 
+  
+    ./stream_fpga_256x32x128 --input=input_waveforms/ne10cpx_short_triangle${size}.bin --output=output_waveforms/stream_fpga_${num}_triangle.bin >> /home/root/triangle_fpga.log
+    rm output_waveforms/stream_fpga_${num}_triangle.bin 
+          
+  fi
+  
 popd 
 
 if [ $size != 1M ] ; then
-cat /mnt/ram/fft/output_waveforms/fftdma_${num}_triangle.txt | perl -p -e "s/\t[-\d]+/,/; s/real//; s/imag//; s/[\r\n]//g; s/\s+//g;" 
+cat /mnt/ram/fft/output_waveforms/neon32_${num}_triangle.txt | perl -p -e "s/\t[-\d]+/,/; s/real//; s/imag//; s/[\r\n]//g; s/\s+//g;" 
 else
         echo ,
 fi
+
+printf "%.0f" `grep "(us)" /home/root/triangle_fpga.log | head -1 | perl -p -e "s/^.*: //; s/[\r\n]//g;"`
+echo -n ","
+printf "%.0f" `grep "(us)" /home/root/triangle_fpga.log | tail -1 | perl -p -e "s/^.*: //; s/[\r\n]//g;"`
+echo -n ","
+
 printf "%.0f" `grep "(us)" /home/root/triangle.log | head -1 | perl -p -e "s/^.*: //; s/[\r\n]//g;"`
 echo -n ","
 printf "%.0f" `grep "(us)" /home/root/triangle.log | tail -1 | perl -p -e "s/^.*: //;"`

@@ -25,20 +25,38 @@ if [ $size == 256x32x128 ] ; then
 fi
 #rerun demo
 pushd /mnt/ram/fft  
-  ./c16_${num} --input=input_waveforms/ne10cpx_short_sine${size}.bin --output=output_waveforms/c16_${num}_sine.bin > /home/root/sine.log
-  cat output_waveforms/c16_${num}_sine.bin | ./ne10cpx_short_to_text > output_waveforms/c16_${num}_sine.txt
-  rm output_waveforms/c16_${num}_sine.bin 
+  ./neon32_${num} --input=input_waveforms/ne10cpx_long_sine${size}.bin --output=output_waveforms/neon32_${num}_sine.bin > /home/root/sine.log
+  cat output_waveforms/neon32_${num}_sine.bin | ./ne10cpx_long_to_text > output_waveforms/neon32_${num}_sine.txt
+  rm output_waveforms/neon32_${num}_sine.bin 
 
   ./fftdma_${num} --input=input_waveforms/ne10cpx_short_sine${size}.bin --output=output_waveforms/fftdma_${num}_sine.bin >> /home/root/sine.log
-  cat output_waveforms/fftdma_${num}_sine.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_sine.txt
+  #cat output_waveforms/fftdma_${num}_sine.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_sine.txt
   rm output_waveforms/fftdma_${num}_sine.bin 
+
+  if [ $size != 1M ] ; then
+      echo "Computation (us): 0" > /home/root/sine_fpga.log
+      echo "Computation (us): 0" >> /home/root/sine_fpga.log
+  else
+    ./stream_neon32_256x32x128 --input=input_waveforms/ne10cpx_long_sine${size}.bin --output=output_waveforms/stream_neon32_${num}_sine.bin > /home/root/sine_fpga.log
+    rm output_waveforms/stream_neon32_${num}_sine.bin 
+  
+    ./stream_fpga_256x32x128 --input=input_waveforms/ne10cpx_short_sine${size}.bin --output=output_waveforms/stream_fpga_${num}_sine.bin >> /home/root/sine_fpga.log
+    rm output_waveforms/stream_fpga_${num}_sine.bin 
+          
+  fi
 popd 
 
 if [ $size != 1M ] ; then
-cat /mnt/ram/fft/output_waveforms/fftdma_${num}_sine.txt | perl -p -e "s/\t[-\d]+/,/; s/real//; s/imag//; s/[\r\n]//g; s/\s+//g;" 
+cat /mnt/ram/fft/output_waveforms/neon32_${num}_sine.txt | perl -p -e "s/\t[-\d]+/,/; s/real//; s/imag//; s/[\r\n]//g; s/\s+//g;" 
 else
-        echo ,
+  echo ,
 fi
+
+printf "%.0f" `grep "(us)" /home/root/sine_fpga.log | head -1 | perl -p -e "s/^.*: //; s/[\r\n]//g;"`
+echo -n ","
+printf "%.0f" `grep "(us)" /home/root/sine_fpga.log | tail -1 | perl -p -e "s/^.*: //; s/[\r\n]//g;"`
+echo -n ","
+
 printf "%.0f" `grep "(us)" /home/root/sine.log | head -1 | perl -p -e "s/^.*: //; s/[\r\n]//g;"`
 echo -n ","
 printf "%.0f" `grep "(us)" /home/root/sine.log | tail -1 | perl -p -e "s/^.*: //;"`
