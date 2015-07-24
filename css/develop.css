@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #0000F0;
-	background-color: #806022;
+	color: #0000E1;
+	background-color: #718A83;
 }
 
 .html
@@ -30,12 +30,12 @@
 	width: 0.01px;
 }
 
-#pu4340
+#pu9942
 {
 	width: 0.01px;
 }
 
-#u4340
+#u9942
 {
 	z-index: 34;
 	width: 318px;
@@ -1139,8 +1139,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1.2;
 	font-size: 18px;
+	line-height: 1.2;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;
@@ -1377,9 +1377,9 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1;
 	font-size: 20px;
 	text-align: center;
+	line-height: 1;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: normal;
@@ -1571,8 +1571,8 @@
 	width: 299px;
 	min-height: 70px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: right;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;

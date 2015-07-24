@@ -1,7 +1,7 @@
 .version.learn /* version checker */
 {
-	color: #000005;
-	background-color: #64AF9E;
+	color: #000011;
+	background-color: #76E1FC;
 }
 
 .html
@@ -29,7 +29,7 @@
 	width: 0.01px;
 }
 
-#u4340
+#u9942
 {
 	z-index: 34;
 	width: 318px;
@@ -894,8 +894,8 @@
 	width: 113px;
 	min-height: 28px;
 	background-color: transparent;
-	line-height: 22px;
 	text-align: center;
+	line-height: 22px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 1132px;
@@ -993,8 +993,8 @@
 	width: 113px;
 	min-height: 28px;
 	background-color: transparent;
-	line-height: 22px;
 	text-align: center;
+	line-height: 22px;
 	margin-left: 381px;
 	margin-top: 15px;
 	position: relative;
@@ -1144,8 +1144,8 @@
 	width: 113px;
 	min-height: 28px;
 	background-color: transparent;
-	line-height: 22px;
 	text-align: center;
+	line-height: 22px;
 	margin-left: 381px;
 	margin-top: 11px;
 	position: relative;
@@ -1287,8 +1287,8 @@
 	width: 113px;
 	min-height: 28px;
 	background-color: transparent;
-	line-height: 22px;
 	text-align: center;
+	line-height: 22px;
 	margin-left: 381px;
 	margin-top: 31px;
 	position: relative;
@@ -1532,9 +1532,9 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1;
 	font-size: 20px;
 	text-align: center;
+	line-height: 1;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: normal;
@@ -1772,8 +1772,8 @@
 	width: 457px;
 	min-height: 32px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: center;
+	line-height: 19px;
 	margin-left: 207px;
 	margin-top: 24px;
 	position: relative;
@@ -1954,8 +1954,8 @@
 	width: 457px;
 	min-height: 32px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: center;
+	line-height: 19px;
 	margin-left: 249px;
 	margin-top: 30px;
 	position: relative;
@@ -2498,8 +2498,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1.2;
 	font-size: 18px;
+	line-height: 1.2;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;
@@ -2768,7 +2768,7 @@
 	border-width: 0px 1px 1px;
 }
 
-#pu4340,#pu9442-7,#pu5793-24,#pu5792-47,#pu9005-4
+#pu9942,#pu9442-7,#pu5793-24,#pu5792-47,#pu9005-4
 {
 	width: 0.01px;
 }

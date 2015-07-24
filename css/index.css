@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E6;
-	background-color: #2265B0;
+	color: #000015;
+	background-color: #26BADF;
 }
 
 .html
@@ -29,7 +29,7 @@
 	width: 0.01px;
 }
 
-#u4340
+#u9942
 {
 	z-index: 34;
 	width: 318px;
@@ -745,7 +745,7 @@
 	padding: 30px 4px 30.166906125798505px 36px;
 }
 
-#pu4340,#pu1355-5
+#pu9942,#pu1355-5
 {
 	width: 0.01px;
 }
@@ -1133,8 +1133,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	line-height: 1.2;
 	font-size: 18px;
+	line-height: 1.2;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;

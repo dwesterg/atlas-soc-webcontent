@@ -1,7 +1,7 @@
 .version.try /* version checker */
 {
-	color: #0000FA;
-	background-color: #13594D;
+	color: #0000F5;
+	background-color: #D6C554;
 }
 
 .html
@@ -29,12 +29,12 @@
 	width: 0.01px;
 }
 
-#pu4340
+#pu9942
 {
 	width: 0.01px;
 }
 
-#u4340
+#u9942
 {
 	z-index: 34;
 	width: 318px;
