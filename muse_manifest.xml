@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437683242263" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1437777031134" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -24,7 +24,6 @@
     <file name="soc_bridges.jpg" crc="199273124" ref="learn" seo="true"/>
     <file name="register_view.jpg" crc="418281144" ref="learn" seo="true"/>
     <file name="other_if.jpg" crc="82722835" ref="learn" seo="true"/>
-    <file name="new-atlas-logo.jpg" crc="294150459" ref="index:play:develop:learn:try" seo="true"/>
     <file name="hps-block-diagram.jpg" crc="503257085" ref="index" seo="true"/>
     <file name="de0-nano-soc_blackdiagram_33-01.jpg" crc="4274690953" ref="index" seo="true"/>
     <file name="de0-nano-soc_blackdiagram_340-01.jpg" crc="4080932808" ref="index" seo="true"/>
@@ -52,15 +51,16 @@
     <file name="alteraopensource-normal.png" crc="4100489691" ref="develop"/>
     <file name="alteraopensource-rollover.jpg" crc="346698539" ref="develop"/>
     <file name="pdf-icon.jpg" crc="185099995" seo="true" ref="index"/>
+    <file name="atlas-soc_logo.jpg" crc="294150459" seo="true" ref="index:play:develop:try:learn"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3799540803"/>
-    <file name="master_a-master.css" crc="239755047" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="3861013936" ref="index"/>
-    <file name="play.css" crc="3774542257" ref="play"/>
-    <file name="learn.css" crc="90484638" ref="learn"/>
-    <file name="try.css" crc="4195572045" ref="try"/>
-    <file name="develop.css" crc="4034945058" ref="develop"/>
+    <file name="site_global.css" crc="90485502"/>
+    <file name="master_a-master.css" crc="436376923" ref="index:play:learn:try:develop"/>
+    <file name="index.css" crc="354859743" ref="index"/>
+    <file name="play.css" crc="269193746" ref="play"/>
+    <file name="learn.css" crc="174781140" ref="learn"/>
+    <file name="try.css" crc="178023382" ref="try"/>
+    <file name="develop.css" crc="4080504624" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -82,12 +82,12 @@
     <file name="html5shiv.js" crc="4241844378" ref="index:play:learn:try:develop"/>
     <file name="webpro.js" crc="3803554875" ref="learn:index:play:try:develop"/>
     <file name="musewpdisclosure.js" crc="3993616448" ref="learn:index:play:try:develop"/>
-    <file name="pie.js" crc="3827607177" ref="play:develop:learn"/>
+    <file name="pie.js" crc="3827607177" ref="play:develop:learn:try"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
-  <file name="index.html" crc="267614743" mt="1437682610759" redirect="true" seo="true"/>
-  <file name="play.html" crc="4294478999" mt="1437604001759" redirect="true" seo="true"/>
-  <file name="learn.html" crc="169282691" mt="1437682873755" redirect="true" seo="true"/>
-  <file name="try.html" crc="4077005682" mt="1437681739507" redirect="true" seo="true"/>
-  <file name="develop.html" crc="126080412" mt="1437682474866" redirect="true" seo="true"/>
+  <file name="index.html" crc="3893739784" mt="1437741859512" redirect="true" seo="true"/>
+  <file name="play.html" crc="24251629" mt="1437742202231" redirect="true" seo="true"/>
+  <file name="learn.html" crc="4211530777" mt="1437771603605" redirect="true" seo="true"/>
+  <file name="try.html" crc="151912616" mt="1437772934788" redirect="true" seo="true"/>
+  <file name="develop.html" crc="16598204" mt="1437776980124" redirect="true" seo="true"/>
 </manifest>
