@@ -1,46 +1,58 @@
 var samples_size;
 var samples=[];
+var div = document.getElementById("u9762"); 
+var spinner = new Spinner().spin()
+spinner.el.id = "spinner";
 
-//document.getElementById("buttonu8263").on("click", function(){
-//                  document.getElementById("led_status").load("cgi-bin/ledoff.sh");
-//});
-// 
-//document.getElementById("buttonu8260").on("click", function(){
-//                  document.getElementById("led_status").load("cgi-bin/ledon.sh");
-//});
-// 
-//document.getElementById("buttonu8431").on("click", function(){
-//                  document.getElementById("led_status").load("cgi-bin/ledblink.sh");
-//});
-// 
-//document.getElementById("buttonu8266").on("click", function(){
-//                  document.getElementById("led_status").load("cgi-bin/povstart.sh");
-//});
-// 
-//document.getElementById("buttonu8269").on("click", function(){
-//                  document.getElementById("led_status").load("cgi-bin/povstop.sh");
-//});
-// 
-//document.getElementById("buttonu8022").on("click", function(){
-//     document.getElementById('fft_data').bind("DOMSubtreeModified",function(){
-//          draw();
-//     });
-//     document.getElementById("fft_data").load("cgi-bin/fft_sine.sh");
-//});
-// 
-//document.getElementById("buttonu8272").on("click", function(){
-//     document.getElementById('fft_data').bind("DOMSubtreeModified",function(){
-//          draw();
-//     });
-//     document.getElementById("fft_data").load("cgi-bin/fft_square.sh");
-//});
-// 
-//document.getElementById("buttonu8275").on("click", function(){
-//     document.getElementById('fft_data').bind("DOMSubtreeModified",function(){
-//          draw();
-//     });
-//     document.getElementById("fft_data").load("cgi-bin/fft_triangle.sh");
-//});
+$("#buttonu8263").on("click", function(){
+                  $("#led_status").load("cgi-bin/ledoff.sh");
+});
+
+$("#buttonu8260").on("click", function(){
+                  $("#led_status").load("cgi-bin/ledon.sh");
+});
+
+$("#buttonu8431").on("click", function(){
+                  $("#led_status").load("cgi-bin/ledblink.sh");
+});
+
+$("#buttonu8266").on("click", function(){
+                  $("#led_status").load("cgi-bin/povstart.sh");
+});
+
+$("#buttonu8269").on("click", function(){
+                  $("#led_status").load("cgi-bin/povstop.sh");
+});
+
+$("#buttonu8022").on("click", function(){
+     div.appendChild(spinner.el)
+     $('#fft_data').bind("DOMSubtreeModified",function(){
+          draw();
+          if(document.getElementById("spinner") != null) 
+             document.getElementById("spinner").remove();
+     });
+     $("#fft_data").load("cgi-bin/fft_sine.sh");
+});
+
+$("#buttonu8272").on("click", function(){
+     div.appendChild(spinner.el)
+     $('#fft_data').bind("DOMSubtreeModified",function(){
+          draw();
+          if(document.getElementById("spinner") != null) 
+             document.getElementById("spinner").remove();
+     });
+     $("#fft_data").load("cgi-bin/fft_square.sh");
+});
+
+$("#buttonu8275").on("click", function(){
+     div.appendChild(spinner.el)
+     $('#fft_data').bind("DOMSubtreeModified",function(){
+          draw();
+          if(document.getElementById("spinner") != null) 
+             document.getElementById("spinner").remove();
+     });
+     $("#fft_data").load("cgi-bin/fft_triangle.sh");
+});
 
 
 function draw() {
@@ -55,7 +67,7 @@ function draw() {
           canvas.style.zIndex   = 8;
           canvas.style.position = "absolute";
           //canvas.style.border   = "1px solid";
-          div = document.getElementById("u9762"); 
+          //div = document.getElementById("u9762"); 
           div.appendChild(canvas)
         }
 
