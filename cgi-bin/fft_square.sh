@@ -33,10 +33,18 @@ pushd /mnt/ram/fft
   #cat output_waveforms/fftdma_${num}_square.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_square.txt
   rm output_waveforms/fftdma_${num}_square.bin 
 
-
-  if [ $size != 1M ] ; then
-      echo "Computation (us): 0" > /home/root/square_fpga.log
-      echo "Computation (us): 0" >> /home/root/square_fpga.log
+  if [ $size == 256 ] ; then
+    ./stream_neon32_256x1x1 --input=input_waveforms/ne10cpx_long_square${size}.bin --output=output_waveforms/stream_neon32_${num}_square.bin > /home/root/square_fpga.log
+    rm output_waveforms/stream_neon32_${num}_square.bin 
+  
+    ./stream_fpga_256x1x1 --input=input_waveforms/ne10cpx_short_square${size}.bin --output=output_waveforms/stream_fpga_${num}_square.bin >> /home/root/square_fpga.log
+    rm output_waveforms/stream_fpga_${num}_square.bin 
+  elif [ $size == 4096 ] ; then
+    ./stream_neon32_256x16x1 --input=input_waveforms/ne10cpx_long_square${size}.bin --output=output_waveforms/stream_neon32_${num}_square.bin > /home/root/square_fpga.log
+    rm output_waveforms/stream_neon32_${num}_square.bin 
+  
+    ./stream_fpga_256x16x1 --input=input_waveforms/ne10cpx_short_square${size}.bin --output=output_waveforms/stream_fpga_${num}_square.bin >> /home/root/square_fpga.log
+    rm output_waveforms/stream_fpga_${num}_square.bin 
   else
     ./stream_neon32_256x32x128 --input=input_waveforms/ne10cpx_long_square${size}.bin --output=output_waveforms/stream_neon32_${num}_square.bin > /home/root/square_fpga.log
     rm output_waveforms/stream_neon32_${num}_square.bin 

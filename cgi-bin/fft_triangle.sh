@@ -33,9 +33,18 @@ pushd /mnt/ram/fft
   #cat output_waveforms/fftdma_${num}_triangle.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_triangle.txt
   rm output_waveforms/fftdma_${num}_triangle.bin 
 
-  if [ $size != 1M ] ; then
-      echo "Computation (us): 0" > /home/root/triangle_fpga.log
-      echo "Computation (us): 0" >> /home/root/triangle_fpga.log
+  if [ $size == 256 ] ; then
+    ./stream_neon32_256x1x1 --input=input_waveforms/ne10cpx_long_triangle${size}.bin --output=output_waveforms/stream_neon32_${num}_triangle.bin > /home/root/triangle_fpga.log
+    rm output_waveforms/stream_neon32_${num}_triangle.bin 
+  
+    ./stream_fpga_256x1x1 --input=input_waveforms/ne10cpx_short_triangle${size}.bin --output=output_waveforms/stream_fpga_${num}_triangle.bin >> /home/root/triangle_fpga.log
+    rm output_waveforms/stream_fpga_${num}_triangle.bin 
+  elif [ $size == 4096 ] ; then
+    ./stream_neon32_256x16x1 --input=input_waveforms/ne10cpx_long_triangle${size}.bin --output=output_waveforms/stream_neon32_${num}_triangle.bin > /home/root/triangle_fpga.log
+    rm output_waveforms/stream_neon32_${num}_triangle.bin 
+  
+    ./stream_fpga_256x16x1 --input=input_waveforms/ne10cpx_short_triangle${size}.bin --output=output_waveforms/stream_fpga_${num}_triangle.bin >> /home/root/triangle_fpga.log
+    rm output_waveforms/stream_fpga_${num}_triangle.bin 
   else
     ./stream_neon32_256x32x128 --input=input_waveforms/ne10cpx_long_triangle${size}.bin --output=output_waveforms/stream_neon32_${num}_triangle.bin > /home/root/triangle_fpga.log
     rm output_waveforms/stream_neon32_${num}_triangle.bin 

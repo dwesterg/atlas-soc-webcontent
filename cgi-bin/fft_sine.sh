@@ -33,9 +33,18 @@ pushd /mnt/ram/fft
   #cat output_waveforms/fftdma_${num}_sine.bin | ./ne10cpx_long_to_text > output_waveforms/fftdma_${num}_sine.txt
   rm output_waveforms/fftdma_${num}_sine.bin 
 
-  if [ $size != 1M ] ; then
-      echo "Computation (us): 0" > /home/root/sine_fpga.log
-      echo "Computation (us): 0" >> /home/root/sine_fpga.log
+  if [ $size == 256 ] ; then
+    ./stream_neon32_256x1x1 --input=input_waveforms/ne10cpx_long_sine${size}.bin --output=output_waveforms/stream_neon32_${num}_sine.bin > /home/root/sine_fpga.log
+    rm output_waveforms/stream_neon32_${num}_sine.bin 
+  
+    ./stream_fpga_256x1x1 --input=input_waveforms/ne10cpx_short_sine${size}.bin --output=output_waveforms/stream_fpga_${num}_sine.bin >> /home/root/sine_fpga.log
+    rm output_waveforms/stream_fpga_${num}_sine.bin 
+  elif [ $size == 4096 ] ; then
+    ./stream_neon32_256x16x1 --input=input_waveforms/ne10cpx_long_sine${size}.bin --output=output_waveforms/stream_neon32_${num}_sine.bin > /home/root/sine_fpga.log
+    rm output_waveforms/stream_neon32_${num}_sine.bin 
+  
+    ./stream_fpga_256x16x1 --input=input_waveforms/ne10cpx_short_sine${size}.bin --output=output_waveforms/stream_fpga_${num}_sine.bin >> /home/root/sine_fpga.log
+    rm output_waveforms/stream_fpga_${num}_sine.bin 
   else
     ./stream_neon32_256x32x128 --input=input_waveforms/ne10cpx_long_sine${size}.bin --output=output_waveforms/stream_neon32_${num}_sine.bin > /home/root/sine_fpga.log
     rm output_waveforms/stream_neon32_${num}_sine.bin 
