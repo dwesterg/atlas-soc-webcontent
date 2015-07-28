@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #000011;
-	background-color: #1E527B;
+	color: #0000EE;
+	background-color: #C9E055;
 }
 
 .html
@@ -13,11 +13,12 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 600px;
+	min-height: 599.5px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: #FFFFFF;
+	padding-bottom: 1px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1253,8 +1254,8 @@
 	width: 95px;
 	min-height: 23px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: left;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1335,8 +1336,8 @@
 	width: 114px;
 	min-height: 23px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: left;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1425,8 +1426,8 @@
 	width: 114px;
 	min-height: 23px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: left;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1487,8 +1488,8 @@
 	width: 184px;
 	min-height: 25px;
 	background-color: transparent;
-	line-height: 22px;
 	text-align: center;
+	line-height: 22px;
 	position: relative;
 	margin-right: -10000px;
 	left: 202px;
@@ -1500,8 +1501,8 @@
 	width: 184px;
 	min-height: 25px;
 	background-color: transparent;
-	line-height: 22px;
 	text-align: center;
+	line-height: 22px;
 	position: relative;
 	margin-right: -10000px;
 	left: 417px;
@@ -1520,9 +1521,9 @@
 	width: 389px;
 	min-height: 66px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: right;
 	font-size: 16px;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 1px;
@@ -1616,9 +1617,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1633,9 +1634,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1651,9 +1652,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1669,9 +1670,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1687,9 +1688,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1704,9 +1705,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1853,9 +1854,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1870,9 +1871,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1888,9 +1889,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1906,9 +1907,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1924,9 +1925,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1941,9 +1942,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1978,9 +1979,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1995,9 +1996,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -2345,7 +2346,7 @@
 	cursor: pointer;
 }
 
-#u9849
+#u10042
 {
 	z-index: 396;
 	width: 200px;
@@ -2354,7 +2355,7 @@
 	border-color: transparent;
 	background-color: transparent;
 	margin-left: 400px;
-	margin-top: 28px;
+	margin-top: 30px;
 	position: relative;
 }
 
@@ -2367,7 +2368,8 @@
 #u279-bw
 {
 	z-index: 33;
-	margin-top: 2px;
+	margin-top: -1px;
+	margin-bottom: -1px;
 	height: 98px;
 }
 
