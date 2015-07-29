@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #0000E7;
-	background-color: #6AB605;
+	color: #0000FF;
+	background-color: #116AE2;
 }
 
 .html
@@ -1149,13 +1149,13 @@
 #u9432
 {
 	z-index: 191;
-	width: 921px;
+	width: 922px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
 	position: relative;
-	padding: 11px 19px 4px 17px;
+	padding: 11px 18px 4px 17px;
 }
 
 #u9946-10
@@ -1175,6 +1175,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	margin-left: 1px;
 	margin-top: 16px;
 	position: relative;
 }
@@ -1399,6 +1400,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
+	padding-bottom: 26px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1421,20 +1423,20 @@
 #u9473
 {
 	z-index: 212;
-	width: 887px;
+	width: 886px;
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
 	margin-right: -10000px;
 	position: relative;
-	padding: 8px 10px 220px 22px;
+	padding: 8px 11px 220px 22px;
 	border-width: 0px 1px 1px;
 }
 
 #u9497-6
 {
 	z-index: 213;
-	width: 179px;
+	width: 886px;
 	min-height: 44px;
 	background-color: #0071BC;
 	color: #FFFFFF;
@@ -1450,9 +1452,10 @@
 #u9498-13
 {
 	z-index: 219;
-	width: 887px;
+	width: 886px;
 	background-color: transparent;
 	line-height: 19px;
+	margin-top: 26px;
 	position: relative;
 }
 
@@ -1490,7 +1493,7 @@
 	border-style: solid;
 	border-color: #999999;
 	background-color: #FFFFFF;
-	padding-bottom: 282px;
+	padding-bottom: 308px;
 	margin-right: -10000px;
 	position: relative;
 	border-width: 0px 1px 1px;
@@ -1553,8 +1556,8 @@
 	width: 299px;
 	min-height: 70px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: right;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;

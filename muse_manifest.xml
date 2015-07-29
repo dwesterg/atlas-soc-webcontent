@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1438123416562" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1438209209672" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -56,11 +56,11 @@
   <folder name="css">
     <file name="site_global.css" crc="3799540803"/>
     <file name="master_a-master.css" crc="436376923" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="354859743" ref="index"/>
+    <file name="index.css" crc="4245734031" ref="index"/>
     <file name="play.css" crc="4006207573" ref="play"/>
-    <file name="learn.css" crc="505673207" ref="learn"/>
-    <file name="try.css" crc="178023382" ref="try"/>
-    <file name="develop.css" crc="3882530309" ref="develop"/>
+    <file name="learn.css" crc="452805432" ref="learn"/>
+    <file name="try.css" crc="9474884" ref="try"/>
+    <file name="develop.css" crc="4279331554" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -87,9 +87,9 @@
     <file name="pie.js" crc="3827607177" ref="play:develop:learn:try"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
-  <file name="index.html" crc="216939096" mt="1438094336900" redirect="true" seo="true"/>
-  <file name="play.html" crc="138514144" mt="1438123332248" redirect="true" seo="true"/>
-  <file name="learn.html" crc="167565597" mt="1438123371153" redirect="true" seo="true"/>
-  <file name="try.html" crc="151912616" mt="1437772934788" redirect="true" seo="true"/>
-  <file name="develop.html" crc="3856619644" mt="1438030285875" redirect="true" seo="true"/>
+  <file name="index.html" crc="77143053" mt="1438199463327" redirect="true" seo="true"/>
+  <file name="play.html" crc="4247451360" mt="1438200155803" redirect="true" seo="true"/>
+  <file name="learn.html" crc="146914637" mt="1438208826933" redirect="true" seo="true"/>
+  <file name="try.html" crc="4032010963" mt="1438209196029" redirect="true" seo="true"/>
+  <file name="develop.html" crc="283809597" mt="1438208400086" redirect="true" seo="true"/>
 </manifest>
