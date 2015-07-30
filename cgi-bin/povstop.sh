@@ -1,16 +1,10 @@
 #!/bin/sh
 
-PIDS=`ps -elf | grep pov_demo | grep -v grep | head -n 1 | perl -p -e "s/^.*root      //; s/  .*$/ /;"`
-#PIDS=`ps -eo pid,pgrp,args | grep -e "pov_demo" | grep -v "grep" | head -n 1 | perl -p -e "s/^\s*\S+\s+(\S+)\s+\S+/\1/;"`
-for PID in $PIDS
+# stop all instances of pov_demo
+while true
 do
-  echo killing $PID
-  kill -TERM $PID >& /dev/null
+PGRP=$(ps -eo pgrp,args | grep -v "grep" | grep -e "pov_demo" | head -n 1 | cut -d ' '  -f 2)
+[ -z ${PGRP} ] && { break; } || { kill -TERM -${PGRP} > /dev/null 2>&1; }
 done
-
-#if [ -f "/home/root/.povpid" ]; then
-#  rm -f /home/root/.povpid
-#fi
-
-
 echo 1
+
