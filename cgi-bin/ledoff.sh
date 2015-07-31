@@ -1,5 +1,8 @@
 #!/bin/sh
 
+(
+flock -x -n 101 && {
+
 echo none > /sys/class/leds/fpga_led0/trigger
 echo none > /sys/class/leds/fpga_led1/trigger
 echo none > /sys/class/leds/fpga_led2/trigger
@@ -24,5 +27,8 @@ usleep 200000
 echo 1 > /sys/class/leds/fpga_led1/brightness
 usleep 200000
 echo 1 > /sys/class/leds/fpga_led0/brightness
+
+}
+) 101>$(dirname ${0})/.led.lock
 
 echo 1
