@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #0000E4;
-	background-color: #56CA82;
+	color: #0000E2;
+	background-color: #6F9D4A;
 }
 
 .html
@@ -355,7 +355,7 @@
 
 #u8521
 {
-	z-index: 411;
+	z-index: 414;
 	width: 150px;
 	background-color: transparent;
 	position: relative;
@@ -1089,7 +1089,7 @@
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
 	position: relative;
-	padding: 9px 21px 12px 18px;
+	padding: 9px 21px 0px 18px;
 }
 
 #u3200-14
@@ -1249,8 +1249,8 @@
 	width: 95px;
 	min-height: 23px;
 	background-color: transparent;
-	text-align: left;
 	line-height: 19px;
+	text-align: left;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1331,8 +1331,8 @@
 	width: 114px;
 	min-height: 23px;
 	background-color: transparent;
-	text-align: left;
 	line-height: 19px;
+	text-align: left;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1421,8 +1421,8 @@
 	width: 114px;
 	min-height: 23px;
 	background-color: transparent;
-	text-align: left;
 	line-height: 19px;
+	text-align: left;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1483,8 +1483,8 @@
 	width: 184px;
 	min-height: 25px;
 	background-color: transparent;
-	text-align: center;
 	line-height: 22px;
+	text-align: center;
 	position: relative;
 	margin-right: -10000px;
 	left: 202px;
@@ -1496,8 +1496,8 @@
 	width: 184px;
 	min-height: 25px;
 	background-color: transparent;
-	text-align: center;
 	line-height: 22px;
+	text-align: center;
 	position: relative;
 	margin-right: -10000px;
 	left: 417px;
@@ -1547,10 +1547,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1566,10 +1566,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1586,10 +1586,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1712,9 +1712,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1731,9 +1731,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1749,9 +1749,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1783,10 +1783,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1802,10 +1802,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1822,10 +1822,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1948,9 +1948,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1993,7 +1993,7 @@
 	left: 56px;
 }
 
-#u10059-19
+#u10059-22
 {
 	z-index: 392;
 	width: 876px;
@@ -2004,18 +2004,24 @@
 	position: relative;
 }
 
-#u10059-6
+#u4081-3,#u8278-3,#u8278-5,#u8278-7,#u8278-13,#u8278-15,#u8278-17,#u8278-19,#u8278-21,#u8278-23,#u8278-25,#u10059-3,#u10059-6
+{
+	line-height: 19px;
+}
+
+#u10059-9
 {
 	line-height: 19px;
 	font-weight: normal;
 }
 
-#u4081-3,#u8278-3,#u8278-5,#u8278-7,#u8278-13,#u8278-15,#u8278-17,#u8278-19,#u8278-21,#u8278-23,#u8278-25,#u10059-3,#u10059-5,#u10059-9,#u10059-10,#u10059-13,#u10059-14,#u10059-17
+#u10059-5,#u10059-12,#u10059-13,#u10059-16,#u10059-17,#u10059-20
 {
 	line-height: 19px;
+	padding-left: 16px;
 }
 
-#u3200-4,#u3200-9,#u8278-9,#u8278-11,#u9999-8,#u10059-7,#u10059-11,#u10059-15
+#u3200-4,#u3200-9,#u8278-9,#u8278-11,#u9999-8,#u10059-10,#u10059-14,#u10059-18
 {
 	font-weight: bold;
 }
@@ -2027,8 +2033,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	padding-bottom: 1px;
-	margin-top: 36px;
+	margin-top: 37px;
 	position: relative;
 }
 
@@ -2335,7 +2340,7 @@
 	margin-right: -10000px;
 }
 
-#u1234-2,#u4081-2,#u8278-2,#u10059-2,#u3202,#u3202-3,#u3202-4,#u4167,#u4167-3,#u4167-4,#u4175,#u4175-3,#u4175-4,#u4168-2
+#u1234-2,#u4081-2,#u8278-2,#u10059-2,#u10059-8,#u3202,#u3202-3,#u3202-4,#u4167,#u4167-3,#u4167-4,#u4175,#u4175-3,#u4175-4,#u4168-2
 {
 	line-height: 22px;
 }
@@ -2363,7 +2368,7 @@
 
 #u10042
 {
-	z-index: 413;
+	z-index: 416;
 	width: 200px;
 	min-height: 100px;
 	border-style: none;

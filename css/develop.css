@@ -1,7 +1,7 @@
 .version.develop /* version checker */
 {
-	color: #00001F;
-	background-color: #FDECA2;
+	color: #000016;
+	background-color: #1C2B6B;
 }
 
 .html
@@ -1848,8 +1848,8 @@
 	width: 299px;
 	min-height: 70px;
 	background-color: transparent;
-	text-align: right;
 	line-height: 19px;
+	text-align: right;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
