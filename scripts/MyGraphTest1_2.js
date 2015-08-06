@@ -2,62 +2,129 @@ var samples_size;
 var samples=[];
 var div = document.getElementById("u9762"); 
 var spinner = new Spinner().spin()
+var function_finished = true; 
+
 spinner.el.id = "spinner";
 
 $("#buttonu8263").on("click", function(){
-                  $("#led_status").load("cgi-bin/ledoff.sh");
+  $("#led_status").load("cgi-bin/ledoff.sh");
 });
 
 $("#buttonu8260").on("click", function(){
-                  $("#led_status").load("cgi-bin/ledon.sh");
+  $("#led_status").load("cgi-bin/ledon.sh");
 });
 
 $("#buttonu8431").on("click", function(){
-                  $("#led_status").load("cgi-bin/ledblink.sh");
+  $("#led_status").load("cgi-bin/ledblink.sh");
 });
 
 $("#buttonu8266").on("click", function(){
-                  $("#led_status").load("cgi-bin/povstart.sh");
+  $("#led_status").load("cgi-bin/povstart.sh");
 });
 
 $("#buttonu8269").on("click", function(){
-                  $("#led_status").load("cgi-bin/povstop.sh");
+  $("#led_status").load("cgi-bin/povstop.sh");
 });
 
 $("#buttonu8022").on("click", function(){
-     div.appendChild(spinner.el)
+  if(function_finished) {
+     function_finished = false;
+     processing();
      $('#fft_data').bind("DOMSubtreeModified",function(){
           draw();
           if(document.getElementById("spinner") != null) 
              document.getElementById("spinner").remove();
+          function_finished = true;
      });
      $("#fft_data").load("cgi-bin/fft_sine.sh");
+  }  
 });
 
 $("#buttonu8272").on("click", function(){
-     div.appendChild(spinner.el)
+  if(function_finished) {
+     function_finished = false;
+     processing();
      $('#fft_data').bind("DOMSubtreeModified",function(){
           draw();
           if(document.getElementById("spinner") != null) 
              document.getElementById("spinner").remove();
+          function_finished = true;
      });
      $("#fft_data").load("cgi-bin/fft_square.sh");
+  }  
 });
 
 $("#buttonu8275").on("click", function(){
-     div.appendChild(spinner.el)
+  if(function_finished) {
+     function_finished = false;
+     processing();
      $('#fft_data').bind("DOMSubtreeModified",function(){
           draw();
           if(document.getElementById("spinner") != null) 
              document.getElementById("spinner").remove();
+          function_finished = true;
      });
      $("#fft_data").load("cgi-bin/fft_triangle.sh");
+  }  
 });
 
+function processing() {
+     div.appendChild(spinner.el)
+
+     var canvas = document.getElementById("canvas");
+     if(canvas == null) 
+     {
+       canvas = document.createElement('canvas');
+       canvas.id     = "canvas";
+       canvas.width  = 522;
+       canvas.height = 340;
+       canvas.style.zIndex   = 8;
+       canvas.style.position = "absolute";
+       //canvas.style.border   = "1px solid";
+       //div = document.getElementById("u9762"); 
+       div.appendChild(canvas)
+     }
+             
+     var ctx=canvas.getContext("2d");
+     ctx.clearRect(0, 0, canvas.width, canvas.height);
+     ctx.fillStyle = "blue";
+     ctx.font = "bold 18px sans-serif";
+     ctx.fillText("Processing...", canvas.width/2 - 50, canvas.height/2 - 30);
+
+        // 256 Data Source from HPS
+        document.getElementById("u8302-4").innerHTML = "&nbsp;";
+        document.getElementById("u8303-4").innerHTML = "&nbsp;";
+        document.getElementById("u8304-4").innerHTML = "&nbsp;";
+
+        // 256 Data Source From FPGA
+        document.getElementById("u8329-4").innerHTML = "&nbsp;";
+        document.getElementById("u8327-4").innerHTML = "&nbsp;";
+        document.getElementById("u8332-4").innerHTML = "&nbsp;";
+
+        // 4096 Data Source from HPS
+        document.getElementById("u8305-4").innerHTML = "&nbsp;";
+        document.getElementById("u8306-4").innerHTML = "&nbsp;";
+        document.getElementById("u8307-4").innerHTML = "&nbsp;";
+
+        // 4096 Data Source From FPGA
+        document.getElementById("u8325-4").innerHTML = "&nbsp;";
+        document.getElementById("u8326-4").innerHTML = "&nbsp;";
+        document.getElementById("u8330-4").innerHTML = "&nbsp;";
+
+        // 1M Data Source from HPS
+        document.getElementById("u8308-4").innerHTML = "&nbsp;";
+        document.getElementById("u8309-4").innerHTML = "&nbsp;";
+        document.getElementById("u8310-4").innerHTML = "&nbsp;";
+
+        // 1M Data Source From FPGA
+        document.getElementById("u8331-4").innerHTML = "&nbsp;";
+        document.getElementById("u8334-4").innerHTML = "&nbsp;";
+        document.getElementById("u8323-4").innerHTML = "&nbsp;";
+     
+}
 
 function draw() {
         var canvas = document.getElementById("canvas");
-        //if (null==canvas || !canvas.getContext) return;
         if(canvas == null) 
         {
           canvas = document.createElement('canvas');
@@ -71,17 +138,16 @@ function draw() {
           div.appendChild(canvas)
         }
 
-
         var fft_data = document.getElementById("fft_data");
-
-
         var MarginLeft = 0.05*canvas.width;
         var MarginRight = 0.05*canvas.width;
         var MarginTop = 0.1*canvas.height;
         var MarginBottom = 0.3*canvas.height;	
 
-        var axes={}, ctx=canvas.getContext("2d");
+        var axes={};
+        ctx=canvas.getContext("2d");
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+
         axes.xWidth = canvas.width-(MarginLeft+MarginRight); 
         axes.yHeight = canvas.height-(MarginTop+MarginBottom);	
         axes.x0 = MarginLeft;  // x0 pixels from left to x=0
@@ -94,58 +160,51 @@ function draw() {
 
         // fill samples
         samples = fft_data.innerHTML.split(",");
-        for(var i=0; i<samples.length; i++) { samples[i] = parseInt(samples[i], 10); } 
+        for(var i=0; i<samples.length; i++) { 
+                samples[i] = parseInt(samples[i], 10); 
+        } 
 
-        var cpu_time  = samples[samples.length-2];
-        var fpga_time = samples[samples.length-1];
-        var cpu_time2  = samples[samples.length-4];
-        var fpga_time2 = samples[samples.length-3];
-        samples.splice(samples.length-4,4);
+        var time = [];
+        time = samples.splice(samples.length-12,12);
         samples_size = samples.length;
 
-        if(samples_size < 255)
-        {
-          document.getElementById("u8308-4").innerHTML = cpu_time;
-          document.getElementById("u8309-4").innerHTML = fpga_time;
-          document.getElementById("u8310-4").innerHTML = cpu_time - fpga_time;
+        if(time.length < 12) return;
 
-          // Data Source From FPGA
-          document.getElementById("u8331-4").innerHTML = cpu_time2;
-          document.getElementById("u8334-4").innerHTML = fpga_time2;
-          document.getElementById("u8323-4").innerHTML = cpu_time2 - fpga_time2;
-          ctx.fillStyle = "red";
-          ctx.font = "bold 18px sans-serif";
-          ctx.fillText("1M FFT Not Displayed Due to Size", canvas.width/2 - 140, canvas.height/2);
-          return;
-        }
-        else if(samples_size < 4095 && samples_size >= 0)
-        {
-          document.getElementById("u8302-4").innerHTML = cpu_time;
-          document.getElementById("u8303-4").innerHTML = fpga_time;
-          document.getElementById("u8304-4").innerHTML = cpu_time - fpga_time;
+        // 256 Data Source from HPS
+        document.getElementById("u8302-4").innerHTML = time[0];
+        document.getElementById("u8303-4").innerHTML = time[1];
+        document.getElementById("u8304-4").innerHTML = time[0] - time[1];
 
-          // Data Source From FPGA
-          document.getElementById("u8329-4").innerHTML = cpu_time2;
-          document.getElementById("u8327-4").innerHTML = fpga_time2;
-          document.getElementById("u8332-4").innerHTML = cpu_time2 - fpga_time2;
-        }
-        else if(samples_size < 1024*1024-1)
-        {
-          document.getElementById("u8305-4").innerHTML = cpu_time;
-          document.getElementById("u8306-4").innerHTML = fpga_time;
-          document.getElementById("u8307-4").innerHTML = cpu_time - fpga_time;
+        // 256 Data Source From FPGA
+        document.getElementById("u8329-4").innerHTML = time[6];
+        document.getElementById("u8327-4").innerHTML = time[7];
+        document.getElementById("u8332-4").innerHTML = time[6] - time[7];
 
-          // Data Source From FPGA
-          document.getElementById("u8325-4").innerHTML = cpu_time2;
-          document.getElementById("u8326-4").innerHTML = fpga_time2;
-          document.getElementById("u8330-4").innerHTML = cpu_time2 - fpga_time2;
-        }
+        // 4096 Data Source from HPS
+        document.getElementById("u8305-4").innerHTML = time[2];
+        document.getElementById("u8306-4").innerHTML = time[3];
+        document.getElementById("u8307-4").innerHTML = time[2] - time[3];
+
+        // 4096 Data Source From FPGA
+        document.getElementById("u8325-4").innerHTML = time[8];
+        document.getElementById("u8326-4").innerHTML = time[9];
+        document.getElementById("u8330-4").innerHTML = time[8] - time[9];
+
+        // 1M Data Source from HPS
+        document.getElementById("u8308-4").innerHTML = time[4];
+        document.getElementById("u8309-4").innerHTML = time[5];
+        document.getElementById("u8310-4").innerHTML = time[4] - time[5];
+
+        // 1M Data Source From FPGA
+        document.getElementById("u8331-4").innerHTML = time[10];
+        document.getElementById("u8334-4").innerHTML = time[11];
+        document.getElementById("u8323-4").innerHTML = time[10] - time[11];
 
         var SamplesToPlot={};
         SamplesToPlot.content = samples;
         //var max_of_array = Math.max.apply(Math, array);
-        SamplesToPlot.maxvalue = Math.max.apply(Math, samples.slice(1));
-        SamplesToPlot.minvalue = Math.min.apply(Math, samples.slice(1));
+        SamplesToPlot.maxvalue = Math.max.apply(Math, samples);
+        SamplesToPlot.minvalue = Math.min.apply(Math, samples);
         //SamplesToPlot.maxvalue = 130000;
         //SamplesToPlot.minvalue = 0;
         //SamplesToPlot.range = SamplesToPlot.maxvalue - SamplesToPlot.minvalue;
