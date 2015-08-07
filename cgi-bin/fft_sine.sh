@@ -51,7 +51,7 @@ do
 done
 popd > /dev/null 2>&1
 
-cat /mnt/ram/fft/output_waveforms/neon32_256_sine.txt | perl -p -e "s/\t[-\d]+/,/; s/real//; s/imag//; s/[\r\n]//g; s/\s+//g;" 
+cat /mnt/ram/fft/output_waveforms/neon32_256_sine.txt | perl -p -e "s/([-\d]+)\s+([-\d]+)/printf(\"%d,\", sqrt(\$1*\$1 + \$2*\$2))/e; s/real//; s/imag//; s/[\r\n]//g; s/\s+//g;" 
 
 printf "%.0f,%.0f,%.0f,%.0f,%.0f,%.0f," `grep "(us)" /home/root/sine.log      | perl -p -e "s/^.*: //; s/[\r\n]/ /g;"`
 printf "%.0f,%.0f,%.0f,%.0f,%.0f,%.0f"  `grep "(us)" /home/root/sine_fpga.log | perl -p -e "s/^.*: //; s/[\r\n]/ /g;"`
