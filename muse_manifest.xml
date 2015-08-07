@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1438356786893" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1438981238646" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
-    <file name="board-bottom.jpg" crc="3968825685" ref="index" seo="true"/>
+    <file name="board-bottom.jpg" crc="498842435" ref="index" seo="true"/>
     <file name="reset_pushbuttons.jpg" crc="3995012306" ref="index" seo="true"/>
     <file name="hps_reset_tree.jpg" crc="3770232850" ref="index" seo="true"/>
     <file name="board_leds.jpg" crc="120360783" ref="index" seo="true"/>
@@ -54,13 +54,13 @@
     <file name="atlas-soc_logo.jpg" crc="294150459" seo="true" ref="index:play:develop:try:learn"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3799540803"/>
+    <file name="site_global.css" crc="90485502"/>
     <file name="master_a-master.css" crc="436376923" ref="index:play:learn:try:develop"/>
-    <file name="index.css" crc="4245734031" ref="index"/>
-    <file name="play.css" crc="3798965578" ref="play"/>
-    <file name="learn.css" crc="452805432" ref="learn"/>
-    <file name="try.css" crc="9474884" ref="try"/>
-    <file name="develop.css" crc="370944875" ref="develop"/>
+    <file name="index.css" crc="434057241" ref="index"/>
+    <file name="play.css" crc="334170500" ref="play"/>
+    <file name="learn.css" crc="3818477877" ref="learn"/>
+    <file name="try.css" crc="342370772" ref="try"/>
+    <file name="develop.css" crc="4223923189" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -75,6 +75,7 @@
     <file name="why_soc_fpga.mp4" crc="125734413" mt="1429744213000"/>
     <file name="de0-nano-soc_silkbot.pdf" crc="68849633" seo="true" mt="1438094469000"/>
     <file name="de0-nano-soc_silktop.pdf" crc="4239459313" seo="true" mt="1438094469000"/>
+    <file name="atlas-soc_bom.xlsx" crc="3863520342" seo="true" mt="1438981057000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:play:learn:try:develop"/>
@@ -87,9 +88,9 @@
     <file name="pie.js" crc="3827607177" ref="play:develop:learn:try"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="develop:learn"/>
   </folder>
-  <file name="index.html" crc="77143053" mt="1438279536602" redirect="true" seo="true"/>
-  <file name="play.html" crc="134974123" mt="1438356098979" redirect="true" seo="true"/>
-  <file name="learn.html" crc="285466000" mt="1438279521915" redirect="true" seo="true"/>
-  <file name="try.html" crc="4032010963" mt="1438279499285" redirect="true" seo="true"/>
-  <file name="develop.html" crc="3982145392" mt="1438349674554" redirect="true" seo="true"/>
+  <file name="index.html" crc="395790120" mt="1438978205643" redirect="true" seo="true"/>
+  <file name="play.html" crc="334601424" mt="1438980168379" redirect="true" seo="true"/>
+  <file name="learn.html" crc="4220641877" mt="1438981142902" redirect="true" seo="true"/>
+  <file name="try.html" crc="3921361131" mt="1438980270241" redirect="true" seo="true"/>
+  <file name="develop.html" crc="371507785" mt="1438980640321" redirect="true" seo="true"/>
 </manifest>
