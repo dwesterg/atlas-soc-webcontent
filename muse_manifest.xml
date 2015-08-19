@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1439319156012" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1439994972305" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -58,7 +58,7 @@
     <file name="master_a-master.css" crc="436376923" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="434057241" ref="index"/>
     <file name="play.css" crc="334170500" ref="play"/>
-    <file name="learn.css" crc="80444227" ref="learn"/>
+    <file name="learn.css" crc="35062130" ref="learn"/>
     <file name="try.css" crc="342370772" ref="try"/>
     <file name="develop.css" crc="4223923189" ref="develop"/>
   </folder>
@@ -89,7 +89,7 @@
   </folder>
   <file name="index.html" crc="312612340" mt="1439318790288" redirect="true" seo="true"/>
   <file name="play.html" crc="334601424" mt="1438980168379" redirect="true" seo="true"/>
-  <file name="learn.html" crc="145180769" mt="1439318790285" redirect="true" seo="true"/>
+  <file name="learn.html" crc="4164042140" mt="1439994960624" redirect="true" seo="true"/>
   <file name="try.html" crc="3921361131" mt="1438980270241" redirect="true" seo="true"/>
   <file name="develop.html" crc="371507785" mt="1438980640321" redirect="true" seo="true"/>
 </manifest>
