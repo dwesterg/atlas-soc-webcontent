@@ -1,7 +1,7 @@
 .version.learn /* version checker */
 {
-	color: #000002;
-	background-color: #170172;
+	color: #000004;
+	background-color: #B5F115;
 }
 
 .html
@@ -1516,9 +1516,9 @@
 {
 	color: #000000;
 	visibility: inherit;
+	line-height: 1;
 	font-size: 20px;
 	text-align: center;
-	line-height: 1;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: bold;
 	font-style: normal;
@@ -2476,8 +2476,8 @@
 {
 	color: #000000;
 	visibility: inherit;
-	font-size: 18px;
 	line-height: 1.2;
+	font-size: 18px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 0px;
