@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #000013;
-	background-color: #EB0984;
+	color: #0000EA;
+	background-color: #7DCAAF;
 }
 
 .html
@@ -787,7 +787,7 @@
 	border-style: solid;
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
-	padding-bottom: 2px;
+	padding-bottom: 19px;
 	position: relative;
 }
 
@@ -1533,9 +1533,9 @@
 	width: 389px;
 	min-height: 66px;
 	background-color: transparent;
-	line-height: 19px;
 	text-align: right;
 	font-size: 16px;
+	line-height: 19px;
 	position: relative;
 	margin-right: -10000px;
 }
@@ -1564,10 +1564,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1583,10 +1583,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1603,10 +1603,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1623,9 +1623,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1640,9 +1640,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1658,9 +1658,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1676,9 +1676,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1694,9 +1694,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1711,9 +1711,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1729,9 +1729,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1748,9 +1748,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1766,9 +1766,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #F5E4E1;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1800,10 +1800,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1819,10 +1819,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1839,10 +1839,10 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #000000;
-	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: normal;
 	margin-bottom: -1px;
 	position: relative;
@@ -1859,9 +1859,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1876,9 +1876,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1894,9 +1894,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1912,9 +1912,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1930,9 +1930,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1947,9 +1947,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -1965,9 +1965,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-weight: bold;
 	margin-bottom: -1px;
 	position: relative;
@@ -1984,9 +1984,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
@@ -2001,9 +2001,9 @@
 	border-style: solid;
 	border-color: #000000;
 	background-color: #E2EBF5;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
