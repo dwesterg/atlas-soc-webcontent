@@ -1,7 +1,7 @@
 .version.play /* version checker */
 {
-	color: #0000EA;
-	background-color: #7DCAAF;
+	color: #000005;
+	background-color: #FC213D;
 }
 
 .html
@@ -1266,8 +1266,8 @@
 	width: 95px;
 	min-height: 23px;
 	background-color: transparent;
-	text-align: left;
 	line-height: 19px;
+	text-align: left;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1348,8 +1348,8 @@
 	width: 114px;
 	min-height: 23px;
 	background-color: transparent;
-	text-align: left;
 	line-height: 19px;
+	text-align: left;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1438,8 +1438,8 @@
 	width: 114px;
 	min-height: 23px;
 	background-color: transparent;
-	text-align: left;
 	line-height: 19px;
+	text-align: left;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 15px;
@@ -1500,8 +1500,8 @@
 	width: 184px;
 	min-height: 25px;
 	background-color: transparent;
-	text-align: center;
 	line-height: 22px;
+	text-align: center;
 	position: relative;
 	margin-right: -10000px;
 	left: 202px;
@@ -1513,8 +1513,8 @@
 	width: 184px;
 	min-height: 25px;
 	background-color: transparent;
-	text-align: center;
 	line-height: 22px;
+	text-align: center;
 	position: relative;
 	margin-right: -10000px;
 	left: 417px;
