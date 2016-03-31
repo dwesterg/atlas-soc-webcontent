@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1444074410825" domain="192.168.7.1">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1459429641334" domain="192.168.7.1">
   <folder name="images">
     <file name="de0-nano-soc_block_diagram.jpg" crc="75191870" ref="index" seo="true"/>
     <file name="boardtop.jpg" crc="3911977500" ref="index" seo="true"/>
@@ -54,13 +54,13 @@
     <file name="atlas-soc_logo.jpg" crc="294150459" seo="true" ref="index:play:develop:try:learn"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3799540803"/>
+    <file name="site_global.css" crc="90485502"/>
     <file name="master_a-master.css" crc="436376923" ref="index:play:learn:try:develop"/>
     <file name="index.css" crc="3948500991" ref="index"/>
     <file name="play.css" crc="100409661" ref="play"/>
     <file name="learn.css" crc="79032597" ref="learn"/>
     <file name="try.css" crc="342370772" ref="try"/>
-    <file name="develop.css" crc="330655420" ref="develop"/>
+    <file name="develop.css" crc="4290206855" ref="develop"/>
   </folder>
   <folder name="assets">
     <file name="de0-nano-soc.pdf" crc="443412375" mt="1423791588000"/>
@@ -92,5 +92,5 @@
   <file name="play.html" crc="334601424" mt="1444072478597" redirect="true" seo="true"/>
   <file name="learn.html" crc="4163902110" mt="1443105127859" redirect="true" seo="true"/>
   <file name="try.html" crc="3921361131" mt="1438980270241" redirect="true" seo="true"/>
-  <file name="develop.html" crc="3861263442" mt="1444073560340" redirect="true" seo="true"/>
+  <file name="develop.html" crc="329792167" mt="1459428850868" redirect="true" seo="true"/>
 </manifest>
